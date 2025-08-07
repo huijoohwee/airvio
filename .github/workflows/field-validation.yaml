@@ -1,0 +1,41 @@
+name: 字段池配置验证
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'airvio/shared/fields/**'
+      - 'airvio/modules/**/*.md'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'airvio/shared/fields/**'
+      - 'airvio/modules/**/*.md'
+
+jobs:
+  validate-fields:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: 设置 Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: 安装依赖
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+    
+    - name: 运行字段池验证
+      run: |
+        python airvio/shared/utils/field-validator.py .
+    
+    - name: 上传验证报告
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: field-validation-report
+        path: airvio/shared/fields/validation-report.json
