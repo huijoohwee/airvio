@@ -1,0 +1,141 @@
+# === P0 核心价值链路字段 ===
+# 优先级：P0 - 核心价值链路优先
+
+fields:
+  TOKEN_BUDGET_TOTAL:
+    zh-CN: "总Token预算"
+    en-US: "Total Token Budget"
+    description: "完整创业周期的Token总预算"
+    type: "token_budget"
+    priority: "P0"
+    ai_collaboration: "L0"
+    startup_phase: "discovery"
+    value_chain_position: "business_value"
+    tags: ["token-economy", "mvp", "DRY"]
+    validation:
+      rule: "≥30000 && ≤100000"
+      success_criteria: "预算使用效率≥85%"
+      automation_level: "full-auto"
+    token_budget:
+      estimated_tokens: 53000
+      efficiency_target: "≥85%"
+      optimization_strategy: "模板复用+缓存优化"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "24小时"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "降低创业成本90%"
+      business_value: "提升MVP成功率3x"
+      roi_estimate: "300%+"
+      market_validation: "已验证"
+    example: 53000
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["所有创业项目"]
+      template_id: "core_budget_template"
+
+  MVP_DELIVERY_TIME:
+    zh-CN: "MVP交付时间"
+    en-US: "MVP Delivery Time"
+    description: "从启动到MVP上线的目标时间"
+    type: "timeline"
+    priority: "P0"
+    ai_collaboration: "L1"
+    startup_phase: "validation"
+    value_chain_position: "solution_design"
+    tags: ["mvp", "quick-launch", "KISS"]
+    validation:
+      rule: "≤72小时"
+      success_criteria: "24小时内MVP上线"
+      automation_level: "semi-auto"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "24小时"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "极速验证想法"
+      business_value: "抢占时间窗口"
+      roi_estimate: "时间成本节省80%"
+    example: "24小时"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["快速原型", "概念验证"]
+
+  INTEGRATED_TOKEN_BUDGET_CONTROL:
+    zh-CN: "综合Token预算控制"
+    en-US: "Integrated Token Budget Control"
+    description: "五层价值流的综合Token预算分配与控制机制"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L0"
+    startup_phase: "development"
+    value_chain_position: "solution_design"
+    tags: ["token-economy", "DRY", "ai-native"]
+    token_budget:
+      estimated_tokens: 200
+      efficiency_target: "≥95%"
+      optimization_strategy: "预算自动化分配+实时监控"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "实时"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "成本透明"
+      business_value: "成本节省≥45%"
+      roi_estimate: "预算控制精确率≥95%"
+      market_validation: "已验证"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["成本控制", "预算规划", "资源优化"]
+      template_id: "INTEGRATED_BUDGET_001"
+    example:
+      total_budget: 53000
+      phase_allocation:
+        discovery: 8000
+        validation: 10000
+        development: 12000
+        launch: 8000
+        fundraising: 15000
+      optimization_target:
+        cost_reduction: "45%"
+        efficiency_gain: "3x"
+        success_rate: "≥70%"
+
+  MVP_24HOUR_DELIVERY_PROCESS:
+    zh-CN: "24小时MVP上线流程"
+    en-US: "24-Hour MVP Delivery Process"
+    description: "24小时内完成MVP上线的关键里程碑和时间线"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L1"
+    startup_phase: ["validation", "development"]
+    value_chain_position: "core"
+    tags: ["mvp", "quick-launch", "lean-startup"]
+    token_budget:
+      estimated_tokens: 1500
+      efficiency_target: "≥90%"
+      optimization_strategy: "关键路径优化+并行处理"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "24小时"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "极速上线"
+      business_value: "MVP存活率≥95%"
+      roi_estimate: "上线速度10x"
+      market_validation: "已验证"
+    risk_mitigation:
+      execution_risks: ["时间延期", "质量不达标"]
+      mitigation_strategy: "关键路径监控+质量门禁"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["快速交付", "项目管理", "时间管理"]
+      template_id: "MVP_24H_001"
+    example:
+      milestone_timeline:
+        hour_6: "HMNM文档完成度≥90%"
+        hour_12: "MAOS智能体就绪≥95%"
+        hour_18: "GSTR执行进度≥85%"
+        hour_22: "MVP功能完整度≥80%"
+        hour_24: "系统可用性≥99%"

@@ -1,0 +1,40 @@
+# 字段池验证配置
+validation_config:
+  # 验证层级
+  levels:
+    - structure_validation    # 结构完整性验证
+    - reference_validation   # 引用路径验证
+    - syntax_validation      # 语法规范验证
+    - consistency_validation # 一致性验证
+    - performance_validation # 性能影响验证
+  
+  # 验证规则
+  rules:
+    structure:
+      required_root_nodes: ["dynamic_fields"]
+      required_field_properties: ["zh-CN", "en-US", "description", "type", "example"]
+      max_nesting_depth: 5
+    
+    reference:
+      allowed_reference_patterns:
+        - "{{dynamic_fields.[A-Z_]+}}"
+        - "{{dynamic_fields.[A-Z_]+\.[a-z_]+}}"
+        - "{{dynamic_fields.[A-Z_]+\.[a-z_]+\.[a-z_]+}}"
+      forbidden_circular_references: true
+    
+    syntax:
+      field_naming_convention: "^[A-Z][A-Z0-9_]*$"
+      property_naming_convention: "^[a-z][a-z0-9_]*$"
+      required_language_codes: ["zh-CN", "en-US"]
+    
+    consistency:
+      cross_module_reference_check: true
+      field_usage_tracking: true
+      orphaned_field_detection: true
+
+  # 验证触发条件
+  triggers:
+    - on_file_save
+    - on_git_commit
+    - on_build_process
+    - scheduled_daily

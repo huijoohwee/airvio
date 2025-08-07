@@ -1,0 +1,63 @@
+# 字段池主配置文件 - AI原生优化版本\|Field Pool Main Config
+# 基于LNST精益创业统筹中枢 + field_schema.json规范
+
+# 设计原则
+design_principles:
+  DRY: "Don't Repeat Yourself - 模板化复用"
+  KISS: "Keep It Simple & Stupid - 先能用再好用"
+  YAGNI: "You Aren't Gonna Need It - 当前需求优先"
+  SOLID: "高内聚低耦合架构"
+
+# 价值链路
+value_chain: "用户痛点→解决方案→商业价值"
+
+# AI协作比例
+ai_collaboration_ratios:
+  L0: "90% AI生成 + 10% 人工校验 (文档、代码、测试)"
+  L1: "50% AI辅助 + 50% 人工决策 (架构设计、产品决策)"
+  L2: "30% AI建议 + 70% 人工主导 (战略规划、商业决策)"
+
+# 模块引用 - 按优先级排序
+includes:
+  # P0 核心价值链路
+  - "./core-p0.yml"          # 核心系统字段
+  - "./lnst-p0.yml"          # 精益创业核心
+  - "./mvp-p0.yml"           # MVP快速启动
+  
+  # P1 AI原生架构
+  - "./hmnm-p1.yml"          # 人机神经元体系
+  - "./maos-p1.yml"          # 智能体编排
+  - "./gstr-p1.yml"          # 四元体系
+  
+  # P2 质量保障
+  - "./metrics-p2.yml"       # 成功指标
+  - "./quality-p2.yml"       # 质量保障
+  
+  # P3 扩展功能
+  - "./toolchain-p3.yml"     # 工具链集成
+  - "./semantics-p3.yml"     # 语义化表达
+
+# 全局配置
+global_config:
+  version: "v4.0-ai-native"
+  last_updated: "2025-01-08"
+  mvp_delivery_target: "24小时"
+  automation_rule: "尽可能自动化，抵制手动更新诱惑"
+  
+  # Token经济性控制
+  token_economy:
+    total_budget: 53000
+    efficiency_target: "≥85%"
+    optimization_rate: "45%"
+    
+  # 精益创业目标
+  startup_targets:
+    success_rate: "≥70%"
+    investor_readiness: "≥90%"
+    market_validation: "24小时内"
+
+# 使用说明
+usage:
+  reference_syntax: "{{module_name.field_name}}"
+  example: "{{core_system.token_budget_total}}"
+  inheritance_priority: "全局变量 < 文档类型变量 < 版本变量 < 实例变量"

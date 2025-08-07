@@ -1,0 +1,335 @@
+fields:
+  AGENT_ORCHESTRATION:
+    ai_collaboration: L0
+    business_impact:
+      business_value: 降低人力成本
+      roi_estimate: 人力成本节省60%
+      user_value: 自动化协作
+    description: 多智能体动态编排与协调机制
+    en-US: Agent Orchestration
+    example:
+      development_agent: 2500
+      discovery_agent: 1500
+      fundraising_agent: 2500
+      monitoring_agent: 300
+      orchestration_agent: 200
+      validation_agent: 2000
+    mvp_relevance:
+      delivery_timeline: 智能体24小时内部署
+      is_mvp_critical: true
+      quick_launch_compatible: true
+    priority: P1
+    risk_mitigation:
+      execution_risks:
+      - Token预算超支
+      mitigation_strategy: 分层监控+预算控制
+      technical_risks:
+      - 智能体协调失败
+    startup_phase: development
+    tags:
+    - multi-agent
+    - ai-native
+    - SOLID
+    token_budget:
+      efficiency_target: ≥85%
+      estimated_tokens: 9800
+      optimization_strategy: 智能体复用+动态调度
+    type: object
+    validation:
+      automation_level: full-auto
+      rule: 包含6类核心智能体
+      success_criteria: 自动化协作≥90%
+    value_chain_position: solution_design
+    zh-CN: 智能体编排
+  FINANCIAL_THRESHOLD_100K:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 100K
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：100K
+    en-US: 100K Configuration
+    example: 100K
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_100K_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "100K"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 100K配置
+  FINANCIAL_THRESHOLD_100M:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 100M
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：100M
+    en-US: 100M Configuration
+    example: 100M
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_100M_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "100M"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 100M配置
+  FINANCIAL_THRESHOLD_10K:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 10K
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：10K
+    en-US: 10K Configuration
+    example: 10K
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_10K_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "10K"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 10K配置
+  FINANCIAL_THRESHOLD_10M:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 10M
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：10M
+    en-US: 10M Configuration
+    example: 10M
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_10M_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "10M"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 10M配置
+  FINANCIAL_THRESHOLD_1M:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 1M
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1M
+    en-US: 1M Configuration
+    example: 1M
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_1M_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "1M"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1M配置
+  FINANCIAL_THRESHOLD_50:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '50'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：50
+    en-US: 50 Configuration
+    example: '50'
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_50_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "50"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 50配置
+  FINANCIAL_THRESHOLD_50_000:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 50,000
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：50,000
+    en-US: 50,000 Configuration
+    example: 50,000
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_50_000_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "50,000"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 50,000配置
+  FINANCIAL_THRESHOLD_85K:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 85K
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：85K
+    en-US: 85K Configuration
+    example: 85K
+    priority: P1
+    startup_phase: scaling
+    tags:
+    - financial-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: FINANCIAL_THRESHOLD_85K_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "85K"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 85K配置
+  MAOS_AGENT_COLLABORATION_MATRIX:
+    ai_collaboration: L0
+    business_impact:
+      business_value: 协作效率优化
+      market_validation: 已验证
+      roi_estimate: 协作成本降低40%
+      user_value: 协作透明
+    description: 智能体间的协作关系、数据流向和触发条件矩阵
+    en-US: Agent Collaboration Matrix
+    mvp_relevance:
+      delivery_timeline: 开发阶段
+      is_mvp_critical: false
+      quick_launch_compatible: true
+    priority: P1
+    startup_phase:
+    - development
+    tags:
+    - multi-agent
+    - SOLID
+    - ai-native
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 协作设计
+      - 工作流优化
+      template_id: MAOS_MATRIX_001
+    token_budget:
+      efficiency_target: ≥90%
+      estimated_tokens: 600
+      optimization_strategy: 协作模式模板化
+    type: object
+    value_chain_position: solution_design
+    zh-CN: 智能体协作矩阵
+  MAOS_SIX_CORE_AGENTS:
+    ai_collaboration: L1
+    business_impact:
+      business_value: 协作效率≥90%
+      market_validation: 已验证
+      roi_estimate: 人力成本降低60%
+      user_value: 自动化协作
+    description: 编排、发现、验证、开发、融资、监控六类智能体的协作体系
+    en-US: MAOS Six Core Agents
+    example:
+      discovery_agent:
+        collaboration_mode: 串行深度
+        function: 问题发现与市场研究
+        token_budget_per_call: 1500
+      orchestration_agent:
+        collaboration_mode: 中央协调
+        function: 多智能体动态编排与协调
+        token_budget_per_call: 200
+    mvp_relevance:
+      delivery_timeline: 开发阶段
+      is_mvp_critical: true
+      quick_launch_compatible: true
+    priority: P0
+    startup_phase:
+    - development
+    tags:
+    - multi-agent
+    - ai-native
+    - lean-startup
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 智能体编排
+      - 自动化协作
+      - 工作流设计
+      template_id: MAOS_AGENTS_001
+    token_budget:
+      efficiency_target: ≥85%
+      estimated_tokens: 1000
+      optimization_strategy: 智能体动态编排+按需激活
+    type: object
+    value_chain_position: solution_design
+    zh-CN: MAOS六类核心智能体

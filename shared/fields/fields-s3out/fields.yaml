@@ -1,0 +1,1123 @@
+dynamic_fields:
+  TOKEN_BUDGET_TOTAL:
+    zh-CN: 总Token预算
+    en-US: Total Token Budget
+    description: 完整创业周期的Token总预算
+    type: token_budget
+    priority: P0
+    ai_collaboration: L0
+    startup_phase: discovery
+    value_chain_position: business_value
+    tags:
+    - token-economy
+    - mvp
+    - DRY
+    validation:
+      rule: ≥30000 && ≤100000
+      success_criteria: 预算使用效率≥85%
+      automation_level: full-auto
+    token_budget:
+      estimated_tokens: 53000
+      efficiency_target: ≥85%
+      optimization_strategy: 模板复用+缓存优化
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: 24小时
+      quick_launch_compatible: true
+    business_impact:
+      user_value: 降低创业成本90%
+      business_value: 提升MVP成功率3x
+      roi_estimate: 300%+
+      market_validation: 已验证
+    example: 53000
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 所有创业项目
+      template_id: core_budget_template
+  MVP_DELIVERY_TIME:
+  zh-CN: MVP交付时间
+  en-US: MVP Delivery Time
+  description: 从启动到MVP上线的目标时间
+  type: timeline
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: validation
+  value_chain_position: solution_design
+  tags:
+  - mvp
+  - quick-launch
+  - KISS
+  validation:
+    rule: ≤72小时
+    success_criteria: 24小时内MVP上线
+    automation_level: semi-auto
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 极速验证想法
+    business_value: 抢占时间窗口
+    roi_estimate: 时间成本节省80%
+  example: 24小时
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 快速原型
+    - 概念验证
+  INTEGRATED_TOKEN_BUDGET_CONTROL:
+  zh-CN: 综合Token预算控制
+  en-US: Integrated Token Budget Control
+  description: 五层价值流的综合Token预算分配与控制机制
+  type: object
+  priority: P0
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - DRY
+  - ai-native
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: ≥95%
+    optimization_strategy: 预算自动化分配+实时监控
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成本透明
+    business_value: 成本节省≥45%
+    roi_estimate: 预算控制精确率≥95%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 成本控制
+    - 预算规划
+    - 资源优化
+    template_id: INTEGRATED_BUDGET_001
+  example:
+    total_budget: 53000
+    phase_allocation:
+      discovery: 8000
+      validation: 10000
+      development: 12000
+      launch: 8000
+      fundraising: 15000
+    optimization_target:
+      cost_reduction: 45%
+      efficiency_gain: 3x
+      success_rate: ≥70%
+  LEAN_STARTUP_CYCLE:
+  zh-CN: 精益创业循环
+  en-US: Lean Startup Cycle
+  description: 构建-测量-学习的核心循环机制
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: validation
+  value_chain_position: solution_design
+  tags:
+  - lean-startup
+  - mvp
+  - user-centric
+  validation:
+    rule: 包含build、measure、learn三个阶段
+    success_criteria: 循环周期≤1周
+    automation_level: semi-auto
+  token_budget:
+    estimated_tokens: 5000
+    efficiency_target: ≥80%
+    optimization_strategy: 阶段模板化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 1周内完成一个循环
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 快速验证假设
+    business_value: 降低失败风险
+    roi_estimate: 风险降低70%
+  risk_mitigation:
+    market_risks:
+    - 产品市场不匹配
+    execution_risks:
+    - 过度开发
+    mitigation_strategy: 小步快跑，快速验证
+  example:
+    build_phase_token_budget: 2500
+    measure_phase_token_budget: 1500
+    learn_phase_token_budget: 1000
+    build_timeline: 48-72小时
+    measure_timeline: 24-48小时
+    learn_timeline: 12-24小时
+  INVESTOR_READINESS_SCORE:
+  zh-CN: 投资人就绪度评分
+  en-US: Investor Readiness Score
+  description: 投资人评估的综合就绪度指标
+  type: percentage
+  priority: P0
+  ai_collaboration: L2
+  startup_phase: fundraising
+  value_chain_position: business_value
+  tags:
+  - lean-startup
+  - business-value
+  validation:
+    rule: ≥90%
+    success_criteria: 通过投资人初筛
+    automation_level: semi-auto
+  business_impact:
+    user_value: 提升融资成功率
+    business_value: 获得资本支持
+    roi_estimate: 融资成功率提升50%
+  example: ≥90%
+  GSTR_CORE_ARCHITECTURE:
+  zh-CN: GSTR核心架构
+  en-US: GSTR Core Architecture
+  description: 目标-空间-时间-资源四元融合执行体系
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - SOLID
+  - ai-native
+  - lean-startup
+  token_budget:
+    estimated_tokens: 800
+    efficiency_target: ≥90%
+    optimization_strategy: 模板化决策树
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 清晰的执行框架
+    business_value: 战略执行对齐
+    roi_estimate: 3x执行效率
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 架构复杂度
+    execution_risks:
+    - 理解门槛
+    mitigation_strategy: 渐进式学习路径
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 战略规划
+    - 项目管理
+    - 团队协作
+    template_id: GSTR_ARCH_001
+  example:
+    execution_formula: 目标驱决策→资源赋动能→空间布阵地→时间控节奏
+    goal_structure: 战略⟳战役⟳战术
+    resource_structure: 池⟳域⟳流⟳元
+    space_structure: 体⟳面⟳线⟳点
+    time_structure: 感知⟳定位⟳决策⟳执行⟳反馈
+  GSTR_TOKEN_BUDGETS:
+  zh-CN: GSTR Token预算
+  en-US: GSTR Token Budgets
+  description: 四元维度Token分配与优化
+  type: object
+  priority: P0
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - DRY
+  - ai-native
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: ≥95%
+    optimization_strategy: 自动化预算分配
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成本可控
+    business_value: 资源效率≥85%
+    roi_estimate: 45% Token节省
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 预算规划
+    - 成本控制
+    template_id: GSTR_BUDGET_001
+  example:
+    goal_dimension: 800
+    resource_dimension: 600
+    space_dimension: 700
+    time_dimension: 500
+    total_gstr_budget: 3000
+  VALUE_CAUSAL_CHAIN:
+  zh-CN: 价值因果链
+  en-US: Value Causal Chain
+  description: 基于(条件)→通过[方案]→实现{价值}语义格式
+  type: object
+  priority: P0
+  ai_collaboration: L2
+  startup_phase: discovery
+  value_chain_position: business_value
+  tags:
+  - user-centric
+  - business-value
+  - lean-startup
+  token_budget:
+    estimated_tokens: 2000
+    efficiency_target: ≥80%
+    optimization_strategy: 模板化表达+语义复用
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 发现阶段1-2周
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 清晰的价值逻辑
+    business_value: 投资人就绪度≥90%
+    roi_estimate: 融资成功率≥70%
+    market_validation: 待验证
+  risk_mitigation:
+    market_risks:
+    - 假设验证失败
+    - 价值链路断裂
+    mitigation_strategy: 分阶段验证+快速调整
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 商业计划
+    - 投资路演
+    - 产品规划
+    template_id: VALUE_CHAIN_001
+  example:
+    semantic_format: 基于(基础/条件/痛点)→通过[动作/过程/逻辑/方案]→实现{目标/结果/价值}
+    discovery_chain:
+      expression: 基于(市场痛点)→通过[客户访谈+问题验证]→实现{PMF假设}
+      token_budget: 3000
+      investor_value: 问题验证率≥80%
+  validation_chain:
+    expression: 基于(PMF假设)→通过[MVP构建+用户测试]→实现{产品验证}
+    hmnm_docs:
+    - QUICKLAUNCH
+    - README
+    maos_agent: 验证智能体
+    token_budget: 4000
+    investor_value: 用户满意度≥85%
+  development_chain:
+    expression: 基于(产品验证)→通过[功能开发+系统优化]→实现{产品就绪}
+    hmnm_docs:
+    - META
+    - CHEATSHEET
+    maos_agent: 开发智能体
+    token_budget: 5000
+    investor_value: 系统稳定性≥99%
+  launch_chain:
+    expression: 基于(产品就绪)→通过[市场推广+用户获取]→实现{市场牵引}
+    hmnm_docs:
+    - README
+    - WINSHEET
+    maos_agent: 监控智能体
+    token_budget: 3000
+    investor_value: 用户增长率≥20%/月
+  fundraising_chain:
+    expression: 基于(市场牵引)→通过[数据包装+路演材料]→实现{融资成功}
+    hmnm_docs:
+    - 全体文档
+    maos_agent: 融资智能体
+    token_budget: 8000
+    investor_value: 融资成功率≥70%
+  HMNM_TOKEN_BUDGETS:
+  zh-CN: HMNM Token预算
+  en-US: HMNM Token Budgets
+  description: 核心文档Token分配与优化
+  type: object
+  priority: P0
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - DRY
+  - human-ai-collaboration
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: ≥90%
+    optimization_strategy: 模板化+自动化分配
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成本透明
+    business_value: 40% Token节省
+    roi_estimate: 3x开发效率
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 文档预算
+    - 项目规划
+    template_id: HMNM_BUDGET_001
+  example:
+    blueprint_budget: 1500
+    root_budget: 600
+    meta_budget: 500
+    quicklaunch_budget: 800
+    readme_budget: 1000
+    cheatsheet_budget: 500
+    winsheet_budget: 300
+    total_hmnm_budget: 5200
+  HMNM_OPTIMIZATION:
+  zh-CN: HMNM优化策略
+  en-US: HMNM Optimization
+  description: 神经网络文档体系优化指标
+  type: object
+  priority: P1
+  ai_collaboration: L1
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - YAGNI
+  - mvp
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: ≥85%
+    optimization_strategy: 增量优化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 快速上线
+    business_value: MVP存活率≥95%
+    roi_estimate: 首日MVP成功
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 性能优化
+    - 效率提升
+    template_id: HMNM_OPT_001
+  example:
+    template_reuse_rate: 40%
+    token_savings: 40%节省
+    mvp_readiness_time: 24小时
+  HUMAN_MACHINE_RATIO:
+  zh-CN: 人机协作比例
+  en-US: Human-Machine Collaboration Ratio
+  description: 文档的人机协作分工比例
+  type: object
+  priority: P0
+  ai_collaboration: L2
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - human-ai-collaboration
+  - SOLID
+  - ai-native
+  token_budget:
+    estimated_tokens: 150
+    efficiency_target: ≥95%
+    optimization_strategy: 智能分工优化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 协作清晰
+    business_value: 自动化协作90%
+    roi_estimate: 人力成本降低60%
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - AI能力边界
+    - 人工瓶颈
+    mitigation_strategy: 动态调整+能力补强
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 团队协作
+    - 工作流设计
+    template_id: HM_RATIO_001
+  example:
+    blueprint_ratio: 75%:25%
+    root_ratio: 90%:10%
+    meta_ratio: 20%:80%
+    quicklaunch_ratio: 85%:15%
+  NEURAL_FLOW_BUDGETS:
+  zh-CN: 神经流Token预算
+  en-US: Neural Flow Budgets
+  description: 三大神经流路径的Token消耗与时间要求
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - quick-launch
+  - ai-native
+  token_budget:
+    estimated_tokens: 100
+    efficiency_target: ≥90%
+    optimization_strategy: 缓存常用路径
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 60分钟
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 极速启动
+    business_value: 问题解决率≥90%
+    roi_estimate: 10秒问题解决
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 快速启动
+    - 问题解决
+    template_id: NEURAL_FLOW_001
+  example:
+    architecture_flow: 500
+    strategy_flow: 600
+    feedback_flow: 300
+    quicklaunch_time_limit: 60分钟
+    problem_solving_rate: ≥90%
+  AGENT_ORCHESTRATION:
+  zh-CN: 智能体编排
+  en-US: Agent Orchestration
+  description: 多智能体动态编排与协调机制
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - multi-agent
+  - ai-native
+  - SOLID
+  validation:
+    rule: 包含6类核心智能体
+    success_criteria: 自动化协作≥90%
+    automation_level: full-auto
+  token_budget:
+    estimated_tokens: 9800
+    efficiency_target: ≥85%
+    optimization_strategy: 智能体复用+动态调度
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 智能体24小时内部署
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 自动化协作
+    business_value: 降低人力成本
+    roi_estimate: 人力成本节省60%
+  risk_mitigation:
+    technical_risks:
+    - 智能体协调失败
+    execution_risks:
+    - Token预算超支
+    mitigation_strategy: 分层监控+预算控制
+  example:
+    orchestration_agent: 200
+    discovery_agent: 1500
+    validation_agent: 2000
+    development_agent: 2500
+    fundraising_agent: 2500
+    monitoring_agent: 300
+  MATB_CONVERSION_BUDGETS:
+  zh-CN: MATB转换预算
+  en-US: MATB Conversion Budgets
+  description: Markdown-ASCII树形桥接转换Token预算
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - ai-native
+  - cloud-native
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: ≥90%
+    optimization_strategy: 批量转换+缓存复用
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 格式统一
+    business_value: 沟通效率≥95%
+    roi_estimate: 转换自动化100%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 格式转换
+    - 数据桥接
+    template_id: MATB_CONV_001
+  example:
+    htx_to_atr: 400
+    atr_to_mdt: 300
+    htx_to_mdt: 500
+    mdt_to_nquads: 600
+    total_matb_budget: 2000
+  CONVERSION_ACCURACY:
+  zh-CN: 转换精度
+  en-US: Conversion Accuracy
+  description: 各转换路径的精度要求与质量保证
+  type: object
+  priority: P0
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - SOLID
+  - technical-debt
+  token_budget:
+    estimated_tokens: 100
+    efficiency_target: ≥95%
+    optimization_strategy: 自动化质量检测
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 质量保证
+    business_value: 错误率<5%
+    roi_estimate: 质量成本降低70%
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 转换错误
+    - 格式不兼容
+    mitigation_strategy: 多重验证+回滚机制
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 质量控制
+    - 精度验证
+    template_id: CONV_ACC_001
+  example:
+    htx_to_atr_accuracy: ≥95%
+    atr_to_mdt_accuracy: ≥98%
+    htx_to_mdt_accuracy: ≥90%
+    mdt_to_nquads_accuracy: ≥95%
+  NQUADS_COMMANDS:
+  zh-CN: N-Quads命令集
+  en-US: N-Quads Commands
+  description: 语义化命令集合，支持智能体编排
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - multi-agent
+  - ai-native
+  - lean-startup
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: ≥85%
+    optimization_strategy: 命令模板化+语义缓存
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 智能编排
+    business_value: 自动化协作90%
+    roi_estimate: 编排效率3x
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 命令解析错误
+    - 语义歧义
+    mitigation_strategy: 标准化语法+错误处理
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 智能体编排
+    - 工作流自动化
+    template_id: NQUADS_CMD_001
+  example:
+    orchestration_init: ::Orchestration::(MAOS)-[initialize]->{Agent_Pool}
+    task_assignment: ::Task::(Agent_X)-[assign]->{Subtask_Y}
+    status_monitoring: ::Monitor::(System)-[track]->{Performance_Metrics}
+  NQUADS_TOKEN_COSTS:
+  zh-CN: N-Quads Token成本
+  en-US: N-Quads Token Costs
+  description: 各命令的Token消耗成本
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - DRY
+  - ai-native
+  token_budget:
+    estimated_tokens: 50
+    efficiency_target: ≥95%
+    optimization_strategy: 成本预测+优化建议
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 优化阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成本透明
+    business_value: 成本控制精确
+    roi_estimate: 成本预测准确率≥90%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 成本分析
+    - 预算规划
+    template_id: NQUADS_COST_001
+  example:
+    orchestration_init_cost: 50
+    task_assignment_cost: 30
+    status_monitoring_cost: 20
+  path_adjustment_cost: 40
+  result_aggregation_cost: 35
+  hypothesis_validation_cost: 45
+  investor_matching_cost: 55
+  mvp_iteration_cost: 60
+  COMPREHENSIVE_SUCCESS_METRICS:
+  zh-CN: 综合成功指标
+  en-US: Comprehensive Success Metrics
+  description: 过程指标+结果指标的综合评估体系
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: launch
+  value_chain_position: business_value
+  tags:
+  - business-value
+  - user-centric
+  - lean-startup
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: ≥85%
+    optimization_strategy: 自动化指标收集+智能分析
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 发布阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成功可视化
+    business_value: 投资人就绪度≥90%
+    roi_estimate: 决策效率3x
+    market_validation: 已验证
+  risk_mitigation:
+    market_risks:
+    - 指标失真
+    - 虚荣指标
+    mitigation_strategy: 多维度验证+真实用户反馈
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 绩效评估
+    - 投资路演
+    - 战略调整
+    template_id: SUCCESS_METRICS_001
+  example:
+    mvp_launch_time: ≤24小时
+    product_market_fit: ≥70%
+    investor_readiness: ≥90%
+  STARTUP_SUCCESS_METRICS_MATRIX:
+  zh-CN: 创业成功指标矩阵
+  en-US: Startup Success Metrics Matrix
+  description: 按创业阶段划分的关键成功指标
+  type: object
+  priority: P0
+  ai_collaboration: L2
+  startup_phase: discovery
+  value_chain_position: business_value
+  tags:
+  - lean-startup
+  - business-value
+  - user-centric
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: ≥80%
+    optimization_strategy: 阶段化模板+动态调整
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 各阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 阶段清晰
+    business_value: 创业成功率提升
+    roi_estimate: 风险降低50%
+    market_validation: 待验证
+  risk_mitigation:
+    execution_risks:
+    - 阶段目标不清
+    - 指标偏差
+    mitigation_strategy: 里程碑验证+快速调整
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 创业指导
+    - 项目管理
+    - 投资评估
+    template_id: STARTUP_MATRIX_001
+  example:
+    discovery_phase:
+      problem_clarity_score: ≥85%
+      customer_interview_count: ≥20
+    validation_phase:
+      mvp_completion_percentage: ≥90%
+      product_market_fit_signal: ≥70%
+  ORCHESTRATION_STRATEGIES:
+  zh-CN: 编排策略
+  en-US: Orchestration Strategies
+  description: 多智能体编排的四种策略模式
+  type: object
+  priority: P1
+  ai_collaboration: L1
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - multi-agent
+  - ai-native
+  - SOLID
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: ≥85%
+    optimization_strategy: 策略模板化+自适应选择
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 编排灵活
+    business_value: 协作效率≥90%
+    roi_estimate: 编排成本降低40%
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 策略选择错误
+    - 性能瓶颈
+    mitigation_strategy: A/B测试+性能监控
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 智能体编排
+    - 工作流设计
+    template_id: ORCH_STRATEGY_001
+  example:
+    serial_orchestration:
+      token_efficiency: 高（复用上下文）
+      startup_value: 风险控制
+    adaptive_orchestration:
+      token_efficiency: 低（实时调整）
+      startup_value: 灵活响应
+  QUALITY_ASSURANCE:
+  zh-CN: 质量保障体系
+  en-US: Quality Assurance System
+  description: 三环验证的质量保障体系
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - SOLID
+  - ai-native
+  - technical-debt
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: ≥90%
+    optimization_strategy: 自动化检测+智能预警
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 质量保证
+    business_value: MVP存活率≥95%
+    roi_estimate: 质量成本降低60%
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 质量门失效
+    - 检测盲区
+    execution_risks:
+    - 人工检测延迟
+    mitigation_strategy: 多层验证+自动化覆盖
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 质量管理
+    - 项目验收
+    - 持续集成
+    template_id: QA_SYSTEM_001
+  example:
+    three_loop_validation:
+      architecture_loop:
+        name: ✅架构闭环（技术验证）
+        components:
+        - hmnm架构设计
+        - MAOS智能体部署
+      survival_loop:
+        name: ✅生存闭环（市场验证）
+        components:
+        - MVP功能开发
+        - 用户测试反馈
+  MONITORING_AND_OPTIMIZATION:
+  zh-CN: 监控与优化
+  en-US: Monitoring and Optimization
+  description: 系统监控阈值与优化触发机制
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: launch
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - cloud-native
+  - YAGNI
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: ≥95%
+    optimization_strategy: 实时监控+自动优化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 系统稳定
+    business_value: 系统可用性≥99%
+    roi_estimate: 运维成本降低50%
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 监控盲点
+    - 告警风暴
+    mitigation_strategy: 智能告警+分级处理
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 系统监控
+    - 性能优化
+    - 运维管理
+    template_id: MONITOR_OPT_001
+  example:
+    monitoring_thresholds:
+      command_response_time: 5秒
+      token_budget_alert: 90%
+      agent_failure_rate: 10%
+    optimization_targets:
+      token_cost_reduction: 45%
+      efficiency_gain: 3x
+      automation_coverage: 90%
+    communication_efficiency: ≥95%
+    mvp_survival_rate: ≥95%
+    execution_success_rate: ≥90%
+    resource_efficiency: ≥85%
+    strategic_clarity: ≥95%
+    iteration_speed_multiplier: ≥3x
+  SEMANTIC_SYMBOLS:
+  zh-CN: 语义符号集
+  en-US: Semantic Symbols
+  description: 高效语义表达的符号体系
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - DRY
+  - token-economy
+  - ai-native
+  token_budget:
+    estimated_tokens: 100
+    efficiency_target: ≥95%
+    optimization_strategy: 符号化压缩+语义复用
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 表达简洁
+    business_value: Token节省30-40%
+    roi_estimate: 沟通效率≥95%
+    market_validation: 已验证
+  risk_mitigation:
+    technical_risks:
+    - 符号歧义
+    - 学习成本
+    mitigation_strategy: 标准化定义+渐进学习
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 文档编写
+    - 系统设计
+    - 团队沟通
+    template_id: SEMANTIC_SYM_001
+  example:
+    feedback_loop: ⟳
+    parallel_constraint: ∩
+    strategy_overlay: ⊕
+    temporal_dependency: →
+    semantic_reference: '::GRPH::'
+    priority_markers:
+    - ★P1
+    - ★P2
+    - ★P3
+    - ★P4
+    - ★P5
+  SYMBOL_TOKEN_SAVINGS:
+  zh-CN: 符号Token节省
+  en-US: Symbol Token Savings
+  description: 各语义符号的Token节省效果
+  type: object
+  priority: P2
+  ai_collaboration: L0
+  startup_phase: development
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - DRY
+  - YAGNI
+  token_budget:
+    estimated_tokens: 50
+    efficiency_target: ≥98%
+    optimization_strategy: 效果量化+持续优化
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 优化阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成本可见
+    business_value: 平均节省30% Token
+    roi_estimate: 年度成本降低25%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 成本分析
+    - 效率评估
+    template_id: TOKEN_SAVINGS_001
+  example:
+    feedback_loop_savings: 30%
+    parallel_constraint_savings: 25%
+    strategy_overlay_savings: 35%
+    temporal_dependency_savings: 20%
+    semantic_reference_savings: 40%
+    priority_markers_savings: 15%
+  _meta:
+  generated_at: '2025-08-07T11:45:11.376188'
+  generator: AI原生字段合并器 v5.1
+  version: v5.1-ai-native-enhanced-fixed
+  design_principles:
+  - DRY
+  - KISS
+  - YAGNI
+  - SOLID
+  value_chain: 用户痛点→解决方案→商业价值
+  development_roadmap: 一人草创 → 多智能体编排 → 可持续盈利增长
+  statistics:
+    total_fields: 24
+    by_priority:
+      P0: 15
+      P1: 8
+      P2: 1
+      P3: 0
+    by_ai_level:
+      L0: 12
+      L1: 8
+      L2: 4
+    by_startup_phase:
+      discovery: 3
+      validation: 2
+      development: 16
+      launch: 2
+      fundraising: 1
+    by_value_chain:
+      user_pain_point: 0
+      solution_design: 19
+      business_value: 5
+    token_budget_total: 74650
+    mvp_critical_fields: 18
+    quick_launch_compatible: 23
+    reusable_templates: 21
+    business_impact_high: 24
+    risk_mitigation_covered: 13
+    validation_errors: 12
+    files_processed: 9
+    files_failed: 0
+  business_analysis:
+    high_value_fields:
+    - TOKEN_BUDGET_TOTAL
+    - MVP_DELIVERY_TIME
+    - INTEGRATED_TOKEN_BUDGET_CONTROL
+    - LEAN_STARTUP_CYCLE
+    - INVESTOR_READINESS_SCORE
+    - GSTR_CORE_ARCHITECTURE
+    - GSTR_TOKEN_BUDGETS
+    - VALUE_CAUSAL_CHAIN
+    - HMNM_TOKEN_BUDGETS
+    - HMNM_OPTIMIZATION
+    - HUMAN_MACHINE_RATIO
+    - NEURAL_FLOW_BUDGETS
+    - AGENT_ORCHESTRATION
+    - MATB_CONVERSION_BUDGETS
+    - CONVERSION_ACCURACY
+    - NQUADS_COMMANDS
+    - NQUADS_TOKEN_COSTS
+    - COMPREHENSIVE_SUCCESS_METRICS
+    - STARTUP_SUCCESS_METRICS_MATRIX
+    - ORCHESTRATION_STRATEGIES
+    - QUALITY_ASSURANCE
+    - MONITORING_AND_OPTIMIZATION
+    - SEMANTIC_SYMBOLS
+    - SYMBOL_TOKEN_SAVINGS
+    mvp_critical_path:
+    - TOKEN_BUDGET_TOTAL
+    - MVP_DELIVERY_TIME
+    - INTEGRATED_TOKEN_BUDGET_CONTROL
+    - LEAN_STARTUP_CYCLE
+    - GSTR_CORE_ARCHITECTURE
+    - GSTR_TOKEN_BUDGETS
+    - VALUE_CAUSAL_CHAIN
+    - HMNM_TOKEN_BUDGETS
+    - HMNM_OPTIMIZATION
+    - HUMAN_MACHINE_RATIO
+    - NEURAL_FLOW_BUDGETS
+    - AGENT_ORCHESTRATION
+    - CONVERSION_ACCURACY
+    - NQUADS_COMMANDS
+    - COMPREHENSIVE_SUCCESS_METRICS
+    - STARTUP_SUCCESS_METRICS_MATRIX
+    - QUALITY_ASSURANCE
+    - MONITORING_AND_OPTIMIZATION
+    risk_areas: []
+    optimization_opportunities:
+    - 考虑优化Token使用，当前预算较高
+    - 建议完善风险缓解策略覆盖率
+  orchestrator_config:
+    version: v4.0-ai-native
+    last_updated: '2025-01-08'
+    mvp_delivery_target: 24小时
+    automation_rule: 尽可能自动化，抵制手动更新诱惑
+    token_economy:
+      total_budget: 53000
+      efficiency_target: ≥85%
+      optimization_rate: 45%
+    startup_targets:
+      success_rate: ≥70%
+      investor_readiness: ≥90%
+      market_validation: 24小时内

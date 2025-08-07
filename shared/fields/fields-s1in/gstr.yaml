@@ -1,0 +1,209 @@
+# === GSTR - 四元体系与价值链 ===
+# 基于field_schema.json v2.0-ai-native规范优化
+
+GSTR_CORE_ARCHITECTURE:
+  zh-CN: "GSTR核心架构"
+  en-US: "GSTR Core Architecture"
+  description: "目标-空间-时间-资源四元融合执行体系"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L1"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["SOLID", "ai-native", "lean-startup"]
+  token_budget:
+    estimated_tokens: 800
+    efficiency_target: "≥90%"
+    optimization_strategy: "模板化决策树"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "24小时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "清晰的执行框架"
+    business_value: "战略执行对齐"
+    roi_estimate: "3x执行效率"
+    market_validation: "已验证"
+  risk_mitigation:
+    technical_risks: ["架构复杂度"]
+    execution_risks: ["理解门槛"]
+    mitigation_strategy: "渐进式学习路径"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["战略规划", "项目管理", "团队协作"]
+    template_id: "GSTR_ARCH_001"
+  example:
+    execution_formula: "目标驱决策→资源赋动能→空间布阵地→时间控节奏"
+    goal_structure: "战略⟳战役⟳战术"
+    resource_structure: "池⟳域⟳流⟳元"
+    space_structure: "体⟳面⟳线⟳点"
+    time_structure: "感知⟳定位⟳决策⟳执行⟳反馈"
+
+GSTR_TOKEN_BUDGETS:
+  zh-CN: "GSTR Token预算"
+  en-US: "GSTR Token Budgets"
+  description: "四元维度Token分配与优化"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["token-economy", "DRY", "ai-native"]
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: "≥95%"
+    optimization_strategy: "自动化预算分配"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "实时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "成本可控"
+    business_value: "资源效率≥85%"
+    roi_estimate: "45% Token节省"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["预算规划", "成本控制"]
+    template_id: "GSTR_BUDGET_001"
+  example:
+    goal_dimension: 800
+    resource_dimension: 600
+    space_dimension: 700
+    time_dimension: 500
+    total_gstr_budget: 3000
+
+GSTR_FOUR_DIMENSION_SYSTEM:
+  zh-CN: "GSTR四元融合体系"
+  en-US: "GSTR Four-Dimension System"
+  description: "目标-空间-时间-资源四元维度的融合执行体系"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L1"
+  startup_phase: ["development"]
+  value_chain_position: "solution_design"
+  tags: ["SOLID", "ai-native", "lean-startup"]
+  token_budget:
+    estimated_tokens: 800
+    efficiency_target: "≥90%"
+    optimization_strategy: "四元体系符号化压缩"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "24小时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "执行框架"
+    business_value: "执行成功率≥90%"
+    roi_estimate: "执行效率3x"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["战略执行", "项目管理", "资源配置"]
+    template_id: "GSTR_SYSTEM_001"
+  example:
+    goal_dimension:
+      structure: "战略⟳战役⟳战术"
+      token_budget: 800
+      startup_value: "战略清晰度≥95%"
+    resource_dimension:
+      structure: "池⟳域⟳流⟳元"
+      token_budget: 600
+      startup_value: "资源效率≥85%"
+
+GSTR_OODA_CYCLE_ADAPTATION:
+  zh-CN: "OODA循环精益创业适配"
+  en-US: "OODA Cycle Lean Startup Adaptation"
+  description: "观察-定位-决策-行动-反馈循环在精益创业中的应用"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L1"
+  startup_phase: ["validation"]
+  value_chain_position: "solution_design"
+  tags: ["lean-startup", "KISS", "multi-agent"]
+  token_budget:
+    estimated_tokens: 1200
+    efficiency_target: "≥85%"
+    optimization_strategy: "OODA循环模板化"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "1-2周"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "快速决策"
+    business_value: "决策延迟减少80%"
+    roi_estimate: "迭代速度≥3x"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["决策流程", "迭代管理", "反馈循环"]
+    template_id: "GSTR_OODA_001"
+  example:
+    observe_phase:
+      activities: ["市场调研", "用户访谈", "竞争分析"]
+      token_budget: 1500
+      timeline: "1-2周"
+    act_phase:
+      activities: ["MVP构建", "测试执行", "数据收集"]
+      token_budget: 2000
+      timeline: "1-2周"
+
+VALUE_CAUSAL_CHAIN:
+  zh-CN: "价值因果链"
+  en-US: "Value Causal Chain"
+  description: "基于(条件)→通过[方案]→实现{价值}语义格式"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L2"
+  startup_phase: "discovery"
+  value_chain_position: "business_value"
+  tags: ["user-centric", "business-value", "lean-startup"]
+  token_budget:
+    estimated_tokens: 2000
+    efficiency_target: "≥80%"
+    optimization_strategy: "模板化表达+语义复用"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "发现阶段1-2周"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "清晰的价值逻辑"
+    business_value: "投资人就绪度≥90%"
+    roi_estimate: "融资成功率≥70%"
+    market_validation: "待验证"
+  risk_mitigation:
+    market_risks: ["假设验证失败", "价值链路断裂"]
+    mitigation_strategy: "分阶段验证+快速调整"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["商业计划", "投资路演", "产品规划"]
+    template_id: "VALUE_CHAIN_001"
+  example:
+    semantic_format: "基于(基础/条件/痛点)→通过[动作/过程/逻辑/方案]→实现{目标/结果/价值}"
+    discovery_chain:
+      expression: "基于(市场痛点)→通过[客户访谈+问题验证]→实现{PMF假设}"
+      token_budget: 3000
+      investor_value: "问题验证率≥80%"
+  validation_chain:
+    expression: "基于(PMF假设)→通过[MVP构建+用户测试]→实现{产品验证}"
+    hmnm_docs: ["QUICKLAUNCH", "README"]
+    maos_agent: "验证智能体"
+    token_budget: 4000
+    investor_value: "用户满意度≥85%"
+  development_chain:
+    expression: "基于(产品验证)→通过[功能开发+系统优化]→实现{产品就绪}"
+    hmnm_docs: ["META", "CHEATSHEET"]
+    maos_agent: "开发智能体"
+    token_budget: 5000
+    investor_value: "系统稳定性≥99%"
+  launch_chain:
+    expression: "基于(产品就绪)→通过[市场推广+用户获取]→实现{市场牵引}"
+    hmnm_docs: ["README", "WINSHEET"]
+    maos_agent: "监控智能体"
+    token_budget: 3000
+    investor_value: "用户增长率≥20%/月"
+  fundraising_chain:
+    expression: "基于(市场牵引)→通过[数据包装+路演材料]→实现{融资成功}"
+    hmnm_docs: ["全体文档"]
+    maos_agent: "融资智能体"
+    token_budget: 8000
+    investor_value: "融资成功率≥70%"

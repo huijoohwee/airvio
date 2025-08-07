@@ -1,0 +1,218 @@
+# === MATB & N-Quads - 桥接与命令 ===
+# 基于field_schema.json v2.0-ai-native规范优化
+
+MATB_CONVERSION_BUDGETS:
+  zh-CN: "MATB转换预算"
+  en-US: "MATB Conversion Budgets"
+  description: "Markdown-ASCII树形桥接转换Token预算"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["token-economy", "ai-native", "cloud-native"]
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: "≥90%"
+    optimization_strategy: "批量转换+缓存复用"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "开发阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "格式统一"
+    business_value: "沟通效率≥95%"
+    roi_estimate: "转换自动化100%"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["格式转换", "数据桥接"]
+    template_id: "MATB_CONV_001"
+  example:
+    htx_to_atr: 400
+    atr_to_mdt: 300
+    htx_to_mdt: 500
+    mdt_to_nquads: 600
+    total_matb_budget: 2000
+
+CONVERSION_ACCURACY:
+  zh-CN: "转换精度"
+  en-US: "Conversion Accuracy"
+  description: "各转换路径的精度要求与质量保证"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["ai-native", "SOLID", "technical-debt"]
+  token_budget:
+    estimated_tokens: 100
+    efficiency_target: "≥95%"
+    optimization_strategy: "自动化质量检测"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "实时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "质量保证"
+    business_value: "错误率<5%"
+    roi_estimate: "质量成本降低70%"
+    market_validation: "已验证"
+  risk_mitigation:
+    technical_risks: ["转换错误", "格式不兼容"]
+    mitigation_strategy: "多重验证+回滚机制"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["质量控制", "精度验证"]
+    template_id: "CONV_ACC_001"
+  example:
+    htx_to_atr_accuracy: "≥95%"
+    atr_to_mdt_accuracy: "≥98%"
+    htx_to_mdt_accuracy: "≥90%"
+    mdt_to_nquads_accuracy: "≥95%"
+
+NQUADS_COMMANDS:
+  zh-CN: "N-Quads命令集"
+  en-US: "N-Quads Commands"
+  description: "语义化命令集合，支持智能体编排"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L1"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["multi-agent", "ai-native", "lean-startup"]
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: "≥85%"
+    optimization_strategy: "命令模板化+语义缓存"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "开发阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "智能编排"
+    business_value: "自动化协作90%"
+    roi_estimate: "编排效率3x"
+    market_validation: "已验证"
+  risk_mitigation:
+    technical_risks: ["命令解析错误", "语义歧义"]
+    mitigation_strategy: "标准化语法+错误处理"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["智能体编排", "工作流自动化"]
+    template_id: "NQUADS_CMD_001"
+  example:
+    orchestration_init: "::Orchestration::(MAOS)-[initialize]->{Agent_Pool}"
+    task_assignment: "::Task::(Agent_X)-[assign]->{Subtask_Y}"
+    status_monitoring: "::Monitor::(System)-[track]->{Performance_Metrics}"
+
+NQUADS_TOKEN_COSTS:
+  zh-CN: "N-Quads Token成本"
+  en-US: "N-Quads Token Costs"
+  description: "各命令的Token消耗成本"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["token-economy", "DRY", "ai-native"]
+  token_budget:
+    estimated_tokens: 50
+    efficiency_target: "≥95%"
+    optimization_strategy: "成本预测+优化建议"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "优化阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "成本透明"
+    business_value: "成本控制精确"
+    roi_estimate: "成本预测准确率≥90%"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["成本分析", "预算规划"]
+    template_id: "NQUADS_COST_001"
+  example:
+    orchestration_init_cost: 50
+    task_assignment_cost: 30
+    status_monitoring_cost: 20
+  path_adjustment_cost: 40
+  result_aggregation_cost: 35
+  hypothesis_validation_cost: 45
+  investor_matching_cost: 55
+  mvp_iteration_cost: 60
+
+
+MATB_CONVERSION_ENGINE:
+  zh-CN: "MATB转换引擎"
+  en-US: "MATB Conversion Engine"
+  description: "Markdown-ASCII树形桥接转换引擎，支持多种格式转换"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L0"
+  startup_phase: ["development"]
+  value_chain_position: "solution_design"
+  tags: ["ai-native", "cloud-native", "token-economy"]
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: "≥90%"
+    optimization_strategy: "转换模板缓存+批量处理"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "开发阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "格式统一"
+    business_value: "沟通效率≥95%"
+    roi_estimate: "转换自动化100%"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["格式转换", "文档生成", "可视化输出"]
+    template_id: "MATB_ENGINE_001"
+  example:
+    htx_to_atr:
+      input_format: "人类自然语言"
+      output_format: "ASCII树形结构"
+      token_budget: 400
+      accuracy_requirement: "≥95%"
+    mdt_to_nquads:
+      input_format: "Markdown表格"
+      output_format: "N-Quads语义"
+      token_budget: 600
+      accuracy_requirement: "≥95%"
+
+MATB_STARTUP_SEMANTIC_MAPPING:
+  zh-CN: "精益创业语义映射"
+  en-US: "Startup Semantic Mapping"
+  description: "创业阶段的语义触发词与系统组件的映射关系"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L1"
+  startup_phase: ["discovery", "validation", "development", "launch", "fundraising"]
+  value_chain_position: "solution_design"
+  tags: ["lean-startup", "ai-native", "semantic"]
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: "≥85%"
+    optimization_strategy: "语义映射模板化"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "开发阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "智能识别"
+    business_value: "自动化程度≥90%"
+    roi_estimate: "识别效率3x"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["语义分析", "自动化触发", "智能路由"]
+    template_id: "MATB_SEMANTIC_001"
+  example:
+    discovery_phase:
+      triggers: ["验证", "测试", "假设", "问题", "痛点"]
+      gstr_dimension: "goal"
+      maos_agent: "discovery_agent"
+      hmnm_doc: "BLUEPRINT"

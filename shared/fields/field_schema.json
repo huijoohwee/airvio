@@ -1,0 +1,234 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI-Native Field Definition Schema",
+  "description": "基于CORE-REQUIREMENTS、CORE-GOAL、CORE-BACKGROUND的字段定义规范",
+  "version": "v2.0-ai-native",
+  "type": "object",
+  "definitions": {
+    "priority_level": {
+      "type": "string",
+      "enum": ["P0", "P1", "P2", "P3"],
+      "description": "优先级：P0核心价值链路优先，P1-P3逐步扩展"
+    },
+    "ai_collaboration_level": {
+      "type": "string",
+      "enum": ["L0", "L1", "L2"],
+      "description": "AI协作级别：L0(90%AI+10%人工), L1(50%AI+50%人工), L2(30%AI+70%人工)"
+    },
+    "startup_phase": {
+      "type": "string",
+      "enum": ["discovery", "validation", "development", "launch", "fundraising"],
+      "description": "精益创业阶段"
+    },
+    "value_chain_position": {
+      "type": "string",
+      "enum": ["user_pain_point", "solution_design", "business_value"],
+      "description": "价值链路位置：用户痛点→解决方案→商业价值"
+    }
+  },
+  "patternProperties": {
+    "^[A-Z0-9_]+$": {
+      "type": "object",
+      "properties": {
+        "zh-CN": {
+          "type": "string",
+          "description": "中文名称"
+        },
+        "en-US": {
+          "type": "string",
+          "description": "英文名称"
+        },
+        "description": {
+          "type": "string",
+          "description": "字段描述，遵循'字少事大，简洁明了'原则"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["string", "number", "boolean", "object", "array", "token_budget", "timeline", "percentage"],
+          "description": "数据类型，增加AI原生类型"
+        },
+        "priority": {
+          "$ref": "#/definitions/priority_level",
+          "description": "优先级，遵循核心到边缘原则"
+        },
+        "ai_collaboration": {
+          "$ref": "#/definitions/ai_collaboration_level",
+          "description": "AI协作级别"
+        },
+        "startup_phase": {
+          "$ref": "#/definitions/startup_phase",
+          "description": "适用的精益创业阶段"
+        },
+        "value_chain_position": {
+          "$ref": "#/definitions/value_chain_position",
+          "description": "在价值链路中的位置"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "DRY", "KISS", "YAGNI", "SOLID",
+              "ai-native", "cloud-native", "human-ai-collaboration",
+              "token-economy", "mvp", "quick-launch",
+              "solopreneur", "multi-agent", "lean-startup",
+              "user-centric", "business-value", "technical-debt"
+            ]
+          },
+          "description": "标签，基于核心原则和价值导向"
+        },
+        "validation": {
+          "type": "object",
+          "properties": {
+            "rule": {
+              "type": "string",
+              "description": "验证规则"
+            },
+            "success_criteria": {
+              "type": "string",
+              "description": "成功标准，可量化指标"
+            },
+            "automation_level": {
+              "type": "string",
+              "enum": ["manual", "semi-auto", "full-auto"],
+              "description": "自动化程度，遵循'尽可能自动化'原则"
+            }
+          }
+        },
+        "token_budget": {
+          "type": "object",
+          "properties": {
+            "estimated_tokens": {
+              "type": "number",
+              "description": "预估Token消耗"
+            },
+            "efficiency_target": {
+              "type": "string",
+              "pattern": "^≥\\d+%$",
+              "description": "效率目标，如≥85%"
+            },
+            "optimization_strategy": {
+              "type": "string",
+              "description": "优化策略"
+            }
+          },
+          "description": "Token经济性考虑"
+        },
+        "mvp_relevance": {
+          "type": "object",
+          "properties": {
+            "is_mvp_critical": {
+              "type": "boolean",
+              "description": "是否MVP关键字段"
+            },
+            "delivery_timeline": {
+              "type": "string",
+              "description": "交付时间线，如24小时"
+            },
+            "quick_launch_compatible": {
+              "type": "boolean",
+              "description": "是否支持快速启动"
+            }
+          },
+          "description": "MVP相关性"
+        },
+        "business_impact": {
+          "type": "object",
+          "properties": {
+            "user_value": {
+              "type": "string",
+              "description": "用户价值"
+            },
+            "business_value": {
+              "type": "string",
+              "description": "商业价值"
+            },
+            "roi_estimate": {
+              "type": "string",
+              "description": "ROI估算"
+            },
+            "market_validation": {
+              "type": "string",
+              "description": "市场验证状态"
+            }
+          },
+          "description": "商业影响评估"
+        },
+        "risk_mitigation": {
+          "type": "object",
+          "properties": {
+            "technical_risks": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "技术风险"
+            },
+            "market_risks": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "市场风险"
+            },
+            "execution_risks": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "执行风险"
+            },
+            "mitigation_strategy": {
+              "type": "string",
+              "description": "缓解策略"
+            }
+          },
+          "description": "风险缓解"
+        },
+        "example": {
+          "type": ["string", "number", "boolean", "object", "array"],
+          "description": "示例值"
+        },
+        "inheritance_priority": {
+          "type": "string",
+          "enum": ["global", "document_type", "version", "instance"],
+          "description": "继承优先级：全局变量 < 文档类型变量 < 版本变量 < 实例变量"
+        },
+        "template_reusability": {
+          "type": "object",
+          "properties": {
+            "is_reusable": {
+              "type": "boolean",
+              "description": "是否可复用，遵循DRY原则"
+            },
+            "reuse_contexts": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "复用场景"
+            },
+            "template_id": {
+              "type": "string",
+              "description": "模板ID"
+            }
+          },
+          "description": "模板复用性"
+        }
+      },
+      "required": ["zh-CN", "en-US", "description", "type", "priority"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "meta": {
+    "design_principles": {
+      "DRY": "Don't Repeat Yourself - 模板化复用",
+      "KISS": "Keep It Simple & Stupid - 先能用再好用",
+      "YAGNI": "You Aren't Gonna Need It - 当前需求优先",
+      "SOLID": "高内聚低耦合架构"
+    },
+    "value_chain": "用户痛点→解决方案→商业价值",
+    "development_roadmap": "一人草创 → 多智能体编排 → 可持续盈利增长",
+    "ai_collaboration_ratios": {
+      "L0": "90% AI生成 + 10% 人工校验 (文档、代码、测试)",
+      "L1": "50% AI辅助 + 50% 人工决策 (架构设计、产品决策)",
+      "L2": "30% AI建议 + 70% 人工主导 (战略规划、商业决策)"
+    },
+    "quick_launch_strategy": "极速复制 → 微调优化 → 价值验证",
+    "mvp_delivery_target": "24小时",
+    "automation_rule": "尽可能自动化，抵制手动更新诱惑"
+  }
+}

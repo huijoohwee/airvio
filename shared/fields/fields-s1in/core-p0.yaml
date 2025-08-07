@@ -1,0 +1,1456 @@
+fields:
+  INTEGRATED_TOKEN_BUDGET_CONTROL:
+    ai_collaboration: L0
+    business_impact:
+      business_value: 成本节省≥45%
+      market_validation: 已验证
+      roi_estimate: 预算控制精确率≥95%
+      user_value: 成本透明
+    description: 五层价值流的综合Token预算分配与控制机制
+    en-US: Integrated Token Budget Control
+    example:
+      optimization_target:
+        cost_reduction: 45%
+        efficiency_gain: 3x
+        success_rate: ≥70%
+      phase_allocation:
+        development: 12000
+        discovery: 8000
+        fundraising: 15000
+        launch: 8000
+        validation: 10000
+      total_budget: 53000
+    mvp_relevance:
+      delivery_timeline: 实时
+      is_mvp_critical: true
+      quick_launch_compatible: true
+    priority: P0
+    startup_phase: development
+    tags:
+    - token-economy
+    - DRY
+    - ai-native
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 成本控制
+      - 预算规划
+      - 资源优化
+      template_id: INTEGRATED_BUDGET_001
+    token_budget:
+      efficiency_target: ≥95%
+      estimated_tokens: 200
+      optimization_strategy: 预算自动化分配+实时监控
+    type: object
+    value_chain_position: solution_design
+    zh-CN: 综合Token预算控制
+  MVP_24HOUR_DELIVERY_PROCESS:
+    ai_collaboration: L1
+    business_impact:
+      business_value: MVP存活率≥95%
+      market_validation: 已验证
+      roi_estimate: 上线速度10x
+      user_value: 极速上线
+    description: 24小时内完成MVP上线的关键里程碑和时间线
+    en-US: 24-Hour MVP Delivery Process
+    example:
+      milestone_timeline:
+        hour_12: MAOS智能体就绪≥95%
+        hour_18: GSTR执行进度≥85%
+        hour_22: MVP功能完整度≥80%
+        hour_24: 系统可用性≥99%
+        hour_6: HMNM文档完成度≥90%
+    mvp_relevance:
+      delivery_timeline: 24小时
+      is_mvp_critical: true
+      quick_launch_compatible: true
+    priority: P0
+    risk_mitigation:
+      execution_risks:
+      - 时间延期
+      - 质量不达标
+      mitigation_strategy: 关键路径监控+质量门禁
+    startup_phase:
+    - validation
+    - development
+    tags:
+    - mvp
+    - quick-launch
+    - lean-startup
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 快速交付
+      - 项目管理
+      - 时间管理
+      template_id: MVP_24H_001
+    token_budget:
+      efficiency_target: ≥90%
+      estimated_tokens: 1500
+      optimization_strategy: 关键路径优化+并行处理
+    type: object
+    value_chain_position: core
+    zh-CN: 24小时MVP上线流程
+  MVP_DELIVERY_TIME:
+    ai_collaboration: L1
+    business_impact:
+      business_value: 抢占时间窗口
+      roi_estimate: 时间成本节省80%
+      user_value: 极速验证想法
+    description: 从启动到MVP上线的目标时间
+    en-US: MVP Delivery Time
+    example: 24小时
+    mvp_relevance:
+      delivery_timeline: 24小时
+      is_mvp_critical: true
+      quick_launch_compatible: true
+    priority: P0
+    startup_phase: validation
+    tags:
+    - mvp
+    - quick-launch
+    - KISS
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 快速原型
+      - 概念验证
+    type: timeline
+    validation:
+      automation_level: semi-auto
+      rule: ≤72小时
+      success_criteria: 24小时内MVP上线
+    value_chain_position: solution_design
+    zh-CN: MVP交付时间
+  TIME_BUDGET_1:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '1'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1
+    en-US: 1 Configuration
+    example: '1'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_1_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "1"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1配置
+  TIME_BUDGET_10:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '10'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：10
+    en-US: 10 Configuration
+    example: '10'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_10_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "10"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 10配置
+  TIME_BUDGET_12:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '12'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：12
+    en-US: 12 Configuration
+    example: '12'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_12_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "12"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 12配置
+  TIME_BUDGET_18:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '18'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：18
+    en-US: 18 Configuration
+    example: '18'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_18_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "18"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 18配置
+  TIME_BUDGET_1_2:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 1-2
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1-2
+    en-US: 1-2 Configuration
+    example: 1-2
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_1_2_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "1-2"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1-2配置
+  TIME_BUDGET_2:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '2'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：2
+    en-US: 2 Configuration
+    example: '2'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_2_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "2"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 2配置
+  TIME_BUDGET_22:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '22'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：22
+    en-US: 22 Configuration
+    example: '22'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_22_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "22"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 22配置
+  TIME_BUDGET_24:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '24'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：24
+    en-US: 24 Configuration
+    example: '24'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_24_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "24"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 24配置
+  TIME_BUDGET_2_3:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 2-3
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：2-3
+    en-US: 2-3 Configuration
+    example: 2-3
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_2_3_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "2-3"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 2-3配置
+  TIME_BUDGET_2_4:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 2-4
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：2-4
+    en-US: 2-4 Configuration
+    example: 2-4
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_2_4_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "2-4"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 2-4配置
+  TIME_BUDGET_30:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '30'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：30
+    en-US: 30 Configuration
+    example: '30'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_30_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "30"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 30配置
+  TIME_BUDGET_3_5:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 3-5
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：3-5
+    en-US: 3-5 Configuration
+    example: 3-5
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_3_5_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "3-5"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 3-5配置
+  TIME_BUDGET_4:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '4'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：4
+    en-US: 4 Configuration
+    example: '4'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_4_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "4"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 4配置
+  TIME_BUDGET_4_6:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 4-6
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：4-6
+    en-US: 4-6 Configuration
+    example: 4-6
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_4_6_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "4-6"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 4-6配置
+  TIME_BUDGET_4_8:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 4-8
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：4-8
+    en-US: 4-8 Configuration
+    example: 4-8
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_4_8_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "4-8"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 4-8配置
+  TIME_BUDGET_5:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '5'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：5
+    en-US: 5 Configuration
+    example: '5'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_5_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "5"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 5配置
+  TIME_BUDGET_6:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: '6'
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：6
+    en-US: 6 Configuration
+    example: '6'
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_6_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "6"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 6配置
+  TIME_BUDGET_6_10:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 6-10
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：6-10
+    en-US: 6-10 Configuration
+    example: 6-10
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_6_10_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "6-10"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 6-10配置
+  TIME_BUDGET_8_12:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 8-12
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：8-12
+    en-US: 8-12 Configuration
+    example: 8-12
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - time-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TIME_BUDGET_8_12_auto_001
+    type: string
+    validation:
+      automation_level: semi-auto
+      rule: == "8-12"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 8-12配置
+  TOKEN_BUDGET_10000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 10000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：10000T
+    en-US: 10000T Configuration
+    example: 10000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_10000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "10000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 10000T配置
+  TOKEN_BUDGET_1000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 1000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1000T
+    en-US: 1000T Configuration
+    example: 1000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_1000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "1000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1000T配置
+  TOKEN_BUDGET_100T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 100T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：100T
+    en-US: 100T Configuration
+    example: 100T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_100T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "100T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 100T配置
+  TOKEN_BUDGET_12000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 12000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：12000T
+    en-US: 12000T Configuration
+    example: 12000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_12000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "12000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 12000T配置
+  TOKEN_BUDGET_1200T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 1200T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1200T
+    en-US: 1200T Configuration
+    example: 1200T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_1200T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "1200T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1200T配置
+  TOKEN_BUDGET_15000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 15000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：15000T
+    en-US: 15000T Configuration
+    example: 15000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_15000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "15000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 15000T配置
+  TOKEN_BUDGET_1500T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 1500T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1500T
+    en-US: 1500T Configuration
+    example: 1500T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_1500T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "1500T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1500T配置
+  TOKEN_BUDGET_150T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 150T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：150T
+    en-US: 150T Configuration
+    example: 150T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_150T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "150T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 150T配置
+  TOKEN_BUDGET_1800T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 1800T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：1800T
+    en-US: 1800T Configuration
+    example: 1800T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_1800T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "1800T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 1800T配置
+  TOKEN_BUDGET_2000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 2000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：2000T
+    en-US: 2000T Configuration
+    example: 2000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_2000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "2000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 2000T配置
+  TOKEN_BUDGET_200T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 200T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：200T
+    en-US: 200T Configuration
+    example: 200T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_200T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "200T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 200T配置
+  TOKEN_BUDGET_2500T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 2500T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：2500T
+    en-US: 2500T Configuration
+    example: 2500T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_2500T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "2500T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 2500T配置
+  TOKEN_BUDGET_250T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 250T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：250T
+    en-US: 250T Configuration
+    example: 250T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_250T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "250T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 250T配置
+  TOKEN_BUDGET_3000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 3000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：3000T
+    en-US: 3000T Configuration
+    example: 3000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_3000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "3000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 3000T配置
+  TOKEN_BUDGET_300T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 300T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：300T
+    en-US: 300T Configuration
+    example: 300T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_300T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "300T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 300T配置
+  TOKEN_BUDGET_3500T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 3500T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：3500T
+    en-US: 3500T Configuration
+    example: 3500T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_3500T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "3500T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 3500T配置
+  TOKEN_BUDGET_4000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 4000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：4000T
+    en-US: 4000T Configuration
+    example: 4000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_4000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "4000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 4000T配置
+  TOKEN_BUDGET_400T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 400T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：400T
+    en-US: 400T Configuration
+    example: 400T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_400T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "400T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 400T配置
+  TOKEN_BUDGET_5000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 5000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：5000T
+    en-US: 5000T Configuration
+    example: 5000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_5000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "5000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 5000T配置
+  TOKEN_BUDGET_500T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 500T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：500T
+    en-US: 500T Configuration
+    example: 500T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_500T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "500T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 500T配置
+  TOKEN_BUDGET_50T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 50T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：50T
+    en-US: 50T Configuration
+    example: 50T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_50T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "50T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 50T配置
+  TOKEN_BUDGET_5200T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 5200T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：5200T
+    en-US: 5200T Configuration
+    example: 5200T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_5200T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "5200T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 5200T配置
+  TOKEN_BUDGET_53000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 53000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：53000T
+    en-US: 53000T Configuration
+    example: 53000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_53000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "53000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 53000T配置
+  TOKEN_BUDGET_600T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 600T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：600T
+    en-US: 600T Configuration
+    example: 600T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_600T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "600T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 600T配置
+  TOKEN_BUDGET_700T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 700T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：700T
+    en-US: 700T Configuration
+    example: 700T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_700T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "700T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 700T配置
+  TOKEN_BUDGET_8000T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 8000T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：8000T
+    en-US: 8000T Configuration
+    example: 8000T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_8000T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "8000T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 8000T配置
+  TOKEN_BUDGET_800T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 800T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：800T
+    en-US: 800T Configuration
+    example: 800T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_800T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "800T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 800T配置
+  TOKEN_BUDGET_80T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 80T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：80T
+    en-US: 80T Configuration
+    example: 80T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_80T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "80T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 80T配置
+  TOKEN_BUDGET_900T:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 900T
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：900T
+    en-US: 900T Configuration
+    example: 900T
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-budgets
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: TOKEN_BUDGET_900T_auto_001
+    type: token_budget
+    validation:
+      automation_level: semi-auto
+      rule: == "900T"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 900T配置
+  TOKEN_BUDGET_TOTAL:
+    ai_collaboration: L0
+    business_impact:
+      business_value: 提升MVP成功率3x
+      market_validation: 已验证
+      roi_estimate: 300%+
+      user_value: 降低创业成本90%
+    description: 完整创业周期的Token总预算
+    en-US: Total Token Budget
+    example: 53000
+    mvp_relevance:
+      delivery_timeline: 24小时
+      is_mvp_critical: true
+      quick_launch_compatible: true
+    priority: P0
+    startup_phase: discovery
+    tags:
+    - token-economy
+    - mvp
+    - DRY
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 所有创业项目
+      template_id: core_budget_template
+    token_budget:
+      efficiency_target: ≥85%
+      estimated_tokens: 53000
+      optimization_strategy: 模板复用+缓存优化
+    type: token_budget
+    validation:
+      automation_level: full-auto
+      rule: ≥30000 && ≤100000
+      success_criteria: 预算使用效率≥85%
+    value_chain_position: business_value
+    zh-CN: 总Token预算

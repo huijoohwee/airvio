@@ -1,0 +1,121 @@
+# Clean Slate 字段池模版
+# 基于 CORE-REQUIREMENTS.md, CORE-GOAL.md, CORE-BACKGROUND.md
+# 遵循: KISS + DRY + YAGNI + 价值导向
+
+# === 核心配置 ===
+global_config:
+  version: "v1.0-clean"
+  last_updated: "2025-01-08"
+  philosophy: "一人草创 → 多智能体编排 → 可持续盈利增长"
+
+# === 继承优先级 ===
+# 全局变量 < 文档类型变量 < 版本变量 < 实例变量
+usage:
+  reference_syntax: "{{module.field}}"
+  inheritance_priority: "全局 < 文档类型 < 版本 < 实例"
+
+# === P0 核心价值链路 ===
+core_value_chain:
+  user_pain_point: "用户痛点识别"
+  solution_design: "解决方案设计"
+  business_value: "商业价值验证"
+  execution_path: "痛点→解决方案→商业价值"
+
+# === 快速启动配置 ===
+quick_launch:
+  strategy: "极速复制 → 微调优化 → 价值验证"
+  mvp_delivery_time: "24小时"
+  phases:
+    - copy: "寻找相似开源项目"
+    - customize: "最小化修改"
+    - validate: "快速验证假设"
+
+# === 精益创业核心 ===
+lean_startup:
+  core_phases:
+    - discovery: "问题发现"
+    - validation: "假设验证"
+    - development: "产品开发"
+    - launch: "市场投放"
+  success_metrics:
+    mvp_completion: "≤24小时"
+    user_satisfaction: "≥85%"
+    problem_validation: "≥80%"
+
+# === AI原生架构 ===
+ai_native:
+  collaboration_ratios:
+    L0_tasks: "90% AI + 10% 人工"  # 文档、代码、测试
+    L1_tasks: "50% AI + 50% 人工"  # 架构设计、产品决策
+    L2_tasks: "30% AI + 70% 人工"  # 战略规划、商业决策
+  automation_rule: "尽可能自动化，抵制手动更新诱惑"
+
+# === Token 经济性 ===
+token_economy:
+  total_budget: 15000  # 简化版预算
+  budget_allocation:
+    discovery: 3000
+    validation: 4000
+    development: 5000
+    launch: 3000
+  efficiency_target: "≥85%"
+
+# === 执行原则 ===
+execution_principles:
+  DRY: "Don't Repeat Yourself - 模板化复用"
+  KISS: "Keep It Simple & Stupid - 先能用再好用"
+  YAGNI: "You Aren't Gonna Need It - 当前需求优先"
+  SOLID: "高内聚低耦合架构"
+
+# === 目标市场 ===
+target_market:
+  primary:
+    - solopreneurs: "独立开发者"
+    - small_teams: "初创小团队"
+  secondary:
+    - consultants: "专业服务咨询师"
+    - educators: "内容创作者"
+
+# === 成功指标 ===
+success_metrics:
+  speed_to_market: "AI加速开发周期"
+  user_adoption: "注册到首次成功文档时间"
+  business_impact: "每份文档产生收入"
+  technical_debt: "≤20%"
+  system_reliability: "≥99%"
+
+# === 风险缓解 ===
+risk_mitigation:
+  technical:
+    - dependency: "避免单点故障"
+    - scalability: "规划10倍增长"
+    - security: "第一天实施数据保护"
+  market:
+    - competition: "保持差异化"
+    - timing: "快速执行抓住机会"
+    - validation: "真实用户测试假设"
+
+# === 质量保障 ===
+quality_gates:
+  clarity_score: "≥85%"
+  completeness: "所有依赖关系明确"
+  efficiency: "≥70% 信息密度"
+  stakeholder_alignment: "清晰所有权和问责制"
+
+# === 部署要求 ===
+deployment:
+  simplicity: "任何LLM都可运行"
+  cloud_native: "弹性伸缩，按需付费"
+  human_ai_collaboration: "人类创意 + AI效率"
+  
+# === 文档要求 ===
+minimum_viable_docs:
+  pre_start:
+    - README.md: "项目概览和快速开始"
+    - QUICKLAUNCH.md: "一键启动指南"
+  in_progress:
+    - todo.md: "任务清单和优先级"
+    - WINSHEET.md: "每日进展记录"
+  post_completion:
+    - CHANGELOG.md: "版本变更记录"
+    - DEPLOYMENT.md: "部署指南"

@@ -1,0 +1,113 @@
+# === 综合指标与策略 ===
+# 基于field_schema.json v2.0-ai-native规范优化
+
+COMPREHENSIVE_SUCCESS_METRICS:
+  zh-CN: "综合成功指标"
+  en-US: "Comprehensive Success Metrics"
+  description: "过程指标+结果指标的综合评估体系"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L1"
+  startup_phase: "launch"
+  value_chain_position: "business_value"
+  tags: ["business-value", "user-centric", "lean-startup"]
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: "≥85%"
+    optimization_strategy: "自动化指标收集+智能分析"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "发布阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "成功可视化"
+    business_value: "投资人就绪度≥90%"
+    roi_estimate: "决策效率3x"
+    market_validation: "已验证"
+  risk_mitigation:
+    market_risks: ["指标失真", "虚荣指标"]
+    mitigation_strategy: "多维度验证+真实用户反馈"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["绩效评估", "投资路演", "战略调整"]
+    template_id: "SUCCESS_METRICS_001"
+  example:
+    mvp_launch_time: "≤24小时"
+    product_market_fit: "≥70%"
+    investor_readiness: "≥90%"
+
+STARTUP_SUCCESS_METRICS_MATRIX:
+  zh-CN: "创业成功指标矩阵"
+  en-US: "Startup Success Metrics Matrix"
+  description: "按创业阶段划分的关键成功指标"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L2"
+  startup_phase: "discovery"
+  value_chain_position: "business_value"
+  tags: ["lean-startup", "business-value", "user-centric"]
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: "≥80%"
+    optimization_strategy: "阶段化模板+动态调整"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "各阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "阶段清晰"
+    business_value: "创业成功率提升"
+    roi_estimate: "风险降低50%"
+    market_validation: "待验证"
+  risk_mitigation:
+    execution_risks: ["阶段目标不清", "指标偏差"]
+    mitigation_strategy: "里程碑验证+快速调整"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["创业指导", "项目管理", "投资评估"]
+    template_id: "STARTUP_MATRIX_001"
+  example:
+    discovery_phase:
+      problem_clarity_score: "≥85%"
+      customer_interview_count: "≥20"
+    validation_phase:
+      mvp_completion_percentage: "≥90%"
+      product_market_fit_signal: "≥70%"
+
+ORCHESTRATION_STRATEGIES:
+  zh-CN: "编排策略"
+  en-US: "Orchestration Strategies"
+  description: "多智能体编排的四种策略模式"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L1"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["multi-agent", "ai-native", "SOLID"]
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: "≥85%"
+    optimization_strategy: "策略模板化+自适应选择"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "开发阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "编排灵活"
+    business_value: "协作效率≥90%"
+    roi_estimate: "编排成本降低40%"
+    market_validation: "已验证"
+  risk_mitigation:
+    technical_risks: ["策略选择错误", "性能瓶颈"]
+    mitigation_strategy: "A/B测试+性能监控"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["智能体编排", "工作流设计"]
+    template_id: "ORCH_STRATEGY_001"
+  example:
+    serial_orchestration:
+      token_efficiency: "高（复用上下文）"
+      startup_value: "风险控制"
+    adaptive_orchestration:
+      token_efficiency: "低（实时调整）"
+      startup_value: "灵活响应"

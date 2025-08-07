@@ -1,0 +1,178 @@
+# === LNST P0 精益创业核心字段 ===
+
+fields:
+  LEAN_STARTUP_CYCLE:
+    zh-CN: "精益创业循环"
+    en-US: "Lean Startup Cycle"
+    description: "构建-测量-学习的核心循环机制"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L1"
+    startup_phase: "validation"
+    value_chain_position: "solution_design"
+    tags: ["lean-startup", "mvp", "user-centric"]
+    validation:
+      rule: "包含build、measure、learn三个阶段"
+      success_criteria: "循环周期≤1周"
+      automation_level: "semi-auto"
+    token_budget:
+      estimated_tokens: 5000
+      efficiency_target: "≥80%"
+      optimization_strategy: "阶段模板化"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "1周内完成一个循环"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "快速验证假设"
+      business_value: "降低失败风险"
+      roi_estimate: "风险降低70%"
+    risk_mitigation:
+      market_risks: ["产品市场不匹配"]
+      execution_risks: ["过度开发"]
+      mitigation_strategy: "小步快跑，快速验证"
+    example:
+      build_phase_token_budget: 2500
+      measure_phase_token_budget: 1500
+      learn_phase_token_budget: 1000
+      build_timeline: "48-72小时"
+      measure_timeline: "24-48小时"
+      learn_timeline: "12-24小时"
+
+  LNST_BUILD_MEASURE_LEARN_CYCLE:
+    zh-CN: "构建-测量-学习循环"
+    en-US: "Build-Measure-Learn Cycle"
+    description: "精益创业核心循环，包含构建、测量、学习三个阶段"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L1"
+    startup_phase: ["discovery", "validation", "development"]
+    value_chain_position: "core"
+    tags: ["lean-startup", "KISS", "mvp"]
+    token_budget:
+      estimated_tokens: 1000
+      efficiency_target: "≥85%"
+      optimization_strategy: "阶段化模板复用"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "48-72小时"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "快速验证假设"
+      business_value: "创业成功率≥70%"
+      roi_estimate: "3x迭代效率"
+      market_validation: "已验证"
+    risk_mitigation:
+      market_risks: ["假设验证失败", "用户需求偏差"]
+      mitigation_strategy: "快速迭代+用户反馈"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["产品迭代", "假设验证", "用户测试"]
+      template_id: "LNST_BML_001"
+    example:
+      build_phase:
+        objective: "最小可行产品构建"
+        token_budget: 2500
+        timeline: "48-72小时"
+      measure_phase:
+        objective: "用户反馈收集与分析"
+        token_budget: 1500
+        timeline: "24-48小时"
+      learn_phase:
+        objective: "洞察提取与策略调整"
+        token_budget: 1000
+        timeline: "12-24小时"
+
+  LNST_STARTUP_FIVE_STAGES:
+    zh-CN: "创业五阶段价值链"
+    en-US: "Startup Five-Stage Value Chain"
+    description: "发现、验证、开发、发布、融资五个创业阶段的完整价值链"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L2"
+    startup_phase: ["discovery", "validation", "development", "launch", "fundraising"]
+    value_chain_position: "core"
+    tags: ["lean-startup", "business-value", "user-centric"]
+    token_budget:
+      estimated_tokens: 2000
+      efficiency_target: "≥80%"
+      optimization_strategy: "阶段化预算分配"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "各阶段时间线"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "清晰的创业路径"
+      business_value: "投资人就绪度≥90%"
+      roi_estimate: "创业成功率≥70%"
+      market_validation: "已验证"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["创业规划", "项目管理", "投资路演"]
+      template_id: "LNST_STAGES_001"
+    example:
+      discovery_stage:
+        core_goal: "问题验证"
+        success_metrics: "问题验证率≥80%"
+        token_budget: 8000
+        timeline: "1-2周"
+      validation_stage:
+        core_goal: "解决方案验证"
+        success_metrics: "产品市场匹配≥70%"
+        token_budget: 10000
+        timeline: "2-3周"
+
+  INVESTOR_READINESS_SCORE:
+    zh-CN: "投资人就绪度评分"
+    en-US: "Investor Readiness Score"
+    description: "投资人评估的综合就绪度指标"
+    type: "percentage"
+    priority: "P0"
+    ai_collaboration: "L2"
+    startup_phase: "fundraising"
+    value_chain_position: "business_value"
+    tags: ["lean-startup", "business-value"]
+    validation:
+      rule: "≥90%"
+      success_criteria: "通过投资人初筛"
+      automation_level: "semi-auto"
+    business_impact:
+      user_value: "提升融资成功率"
+      business_value: "获得资本支持"
+      roi_estimate: "融资成功率提升50%"
+    example: "≥90%"
+
+  LNST_INVESTOR_READINESS_FRAMEWORK:
+    zh-CN: "投资人就绪度框架"
+    en-US: "Investor Readiness Framework"
+    description: "投资人评估的五要素框架，包含问题验证、解决方案演示等"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L1"
+    startup_phase: ["fundraising"]
+    value_chain_position: "business_value"
+    tags: ["business-value", "lean-startup", "user-centric"]
+    token_budget:
+      estimated_tokens: 1500
+      efficiency_target: "≥85%"
+      optimization_strategy: "模板化评估+自动化报告"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "融资阶段"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "投资人信心"
+      business_value: "融资成功率≥60%"
+      roi_estimate: "融资效率3x"
+      market_validation: "已验证"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["投资路演", "尽职调查", "商业计划"]
+      template_id: "LNST_INVESTOR_001"
+    example:
+      problem_validation:
+        weight: "20%"
+        requirements: ["客户访谈≥20个", "问题验证率≥80%"]
+      solution_demonstration:
+        weight: "25%"
+        requirements: ["MVP功能完整度≥90%", "用户满意度≥85%"]

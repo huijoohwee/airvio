@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-08-07T11:45:11.401512",
+  "statistics": {
+    "total_fields": 24,
+    "by_priority": {
+      "P0": 15,
+      "P1": 8,
+      "P2": 1,
+      "P3": 0
+    },
+    "by_ai_level": {
+      "L0": 12,
+      "L1": 8,
+      "L2": 4
+    },
+    "by_startup_phase": {
+      "discovery": 3,
+      "validation": 2,
+      "development": 16,
+      "launch": 2,
+      "fundraising": 1
+    },
+    "by_value_chain": {
+      "user_pain_point": 0,
+      "solution_design": 19,
+      "business_value": 5
+    },
+    "token_budget_total": 74650,
+    "mvp_critical_fields": 18,
+    "quick_launch_compatible": 23,
+    "reusable_templates": 21,
+    "business_impact_high": 24,
+    "risk_mitigation_covered": 13,
+    "validation_errors": 12,
+    "files_processed": 9,
+    "files_failed": 0
+  },
+  "business_analysis": {
+    "high_value_fields": [
+      "TOKEN_BUDGET_TOTAL",
+      "MVP_DELIVERY_TIME",
+      "INTEGRATED_TOKEN_BUDGET_CONTROL",
+      "LEAN_STARTUP_CYCLE",
+      "INVESTOR_READINESS_SCORE",
+      "GSTR_CORE_ARCHITECTURE",
+      "GSTR_TOKEN_BUDGETS",
+      "VALUE_CAUSAL_CHAIN",
+      "HMNM_TOKEN_BUDGETS",
+      "HMNM_OPTIMIZATION",
+      "HUMAN_MACHINE_RATIO",
+      "NEURAL_FLOW_BUDGETS",
+      "AGENT_ORCHESTRATION",
+      "MATB_CONVERSION_BUDGETS",
+      "CONVERSION_ACCURACY",
+      "NQUADS_COMMANDS",
+      "NQUADS_TOKEN_COSTS",
+      "COMPREHENSIVE_SUCCESS_METRICS",
+      "STARTUP_SUCCESS_METRICS_MATRIX",
+      "ORCHESTRATION_STRATEGIES",
+      "QUALITY_ASSURANCE",
+      "MONITORING_AND_OPTIMIZATION",
+      "SEMANTIC_SYMBOLS",
+      "SYMBOL_TOKEN_SAVINGS"
+    ],
+    "mvp_critical_path": [
+      "TOKEN_BUDGET_TOTAL",
+      "MVP_DELIVERY_TIME",
+      "INTEGRATED_TOKEN_BUDGET_CONTROL",
+      "LEAN_STARTUP_CYCLE",
+      "GSTR_CORE_ARCHITECTURE",
+      "GSTR_TOKEN_BUDGETS",
+      "VALUE_CAUSAL_CHAIN",
+      "HMNM_TOKEN_BUDGETS",
+      "HMNM_OPTIMIZATION",
+      "HUMAN_MACHINE_RATIO",
+      "NEURAL_FLOW_BUDGETS",
+      "AGENT_ORCHESTRATION",
+      "CONVERSION_ACCURACY",
+      "NQUADS_COMMANDS",
+      "COMPREHENSIVE_SUCCESS_METRICS",
+      "STARTUP_SUCCESS_METRICS_MATRIX",
+      "QUALITY_ASSURANCE",
+      "MONITORING_AND_OPTIMIZATION"
+    ],
+    "risk_areas": [],
+    "optimization_opportunities": [
+      "考虑优化Token使用，当前预算较高",
+      "建议完善风险缓解策略覆盖率"
+    ]
+  },
+  "recommendations": [
+    "考虑优化Token使用，当前预算较高",
+    "建议完善风险缓解策略覆盖率"
+  ]
+}

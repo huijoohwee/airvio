@@ -1,0 +1,402 @@
+COMPREHENSIVE_SUCCESS_METRICS:
+  ai_collaboration: L1
+  business_impact:
+    business_value: 投资人就绪度≥90%
+    market_validation: 已验证
+    roi_estimate: 决策效率3x
+    user_value: 成功可视化
+  description: 过程指标+结果指标的综合评估体系
+  en-US: Comprehensive Success Metrics
+  example:
+    investor_readiness: ≥90%
+    mvp_launch_time: ≤24小时
+    product_market_fit: ≥70%
+  mvp_relevance:
+    delivery_timeline: 发布阶段
+    is_mvp_critical: true
+    quick_launch_compatible: true
+  priority: P0
+  risk_mitigation:
+    market_risks:
+    - 指标失真
+    - 虚荣指标
+    mitigation_strategy: 多维度验证+真实用户反馈
+  startup_phase: launch
+  tags:
+  - business-value
+  - user-centric
+  - lean-startup
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 绩效评估
+    - 投资路演
+    - 战略调整
+    template_id: SUCCESS_METRICS_001
+  token_budget:
+    efficiency_target: ≥85%
+    estimated_tokens: 300
+    optimization_strategy: 自动化指标收集+智能分析
+  type: object
+  value_chain_position: business_value
+  zh-CN: 综合成功指标
+ORCHESTRATION_STRATEGIES:
+  ai_collaboration: L1
+  business_impact:
+    business_value: 协作效率≥90%
+    market_validation: 已验证
+    roi_estimate: 编排成本降低40%
+    user_value: 编排灵活
+  description: 多智能体编排的四种策略模式
+  en-US: Orchestration Strategies
+  example:
+    adaptive_orchestration:
+      startup_value: 灵活响应
+      token_efficiency: 低（实时调整）
+    serial_orchestration:
+      startup_value: 风险控制
+      token_efficiency: 高（复用上下文）
+  mvp_relevance:
+    delivery_timeline: 开发阶段
+    is_mvp_critical: false
+    quick_launch_compatible: true
+  priority: P1
+  risk_mitigation:
+    mitigation_strategy: A/B测试+性能监控
+    technical_risks:
+    - 策略选择错误
+    - 性能瓶颈
+  startup_phase: development
+  tags:
+  - multi-agent
+  - ai-native
+  - SOLID
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 智能体编排
+    - 工作流设计
+    template_id: ORCH_STRATEGY_001
+  token_budget:
+    efficiency_target: ≥85%
+    estimated_tokens: 400
+    optimization_strategy: 策略模板化+自适应选择
+  type: object
+  value_chain_position: solution_design
+  zh-CN: 编排策略
+STARTUP_SUCCESS_METRICS_MATRIX:
+  ai_collaboration: L2
+  business_impact:
+    business_value: 创业成功率提升
+    market_validation: 待验证
+    roi_estimate: 风险降低50%
+    user_value: 阶段清晰
+  description: 按创业阶段划分的关键成功指标
+  en-US: Startup Success Metrics Matrix
+  example:
+    discovery_phase:
+      customer_interview_count: ≥20
+      problem_clarity_score: ≥85%
+    validation_phase:
+      mvp_completion_percentage: ≥90%
+      product_market_fit_signal: ≥70%
+  mvp_relevance:
+    delivery_timeline: 各阶段
+    is_mvp_critical: true
+    quick_launch_compatible: true
+  priority: P0
+  risk_mitigation:
+    execution_risks:
+    - 阶段目标不清
+    - 指标偏差
+    mitigation_strategy: 里程碑验证+快速调整
+  startup_phase: discovery
+  tags:
+  - lean-startup
+  - business-value
+  - user-centric
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 创业指导
+    - 项目管理
+    - 投资评估
+    template_id: STARTUP_MATRIX_001
+  token_budget:
+    efficiency_target: ≥80%
+    estimated_tokens: 500
+    optimization_strategy: 阶段化模板+动态调整
+  type: object
+  value_chain_position: business_value
+  zh-CN: 创业成功指标矩阵
+fields:
+  PERFORMANCE_METRIC__1_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: ≤1秒
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：≤1秒
+    en-US: ≤1秒 Configuration
+    example: ≤1秒
+    priority: P1
+    startup_phase: validation
+    tags:
+    - performance-metrics
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: PERFORMANCE_METRIC__1__auto_001
+    type: threshold
+    validation:
+      automation_level: semi-auto
+      rule: == "≤1秒"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: ≤1秒配置
+  PERFORMANCE_METRIC__2_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: ≤2秒
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：≤2秒
+    en-US: ≤2秒 Configuration
+    example: ≤2秒
+    priority: P1
+    startup_phase: validation
+    tags:
+    - performance-metrics
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: PERFORMANCE_METRIC__2__auto_001
+    type: threshold
+    validation:
+      automation_level: semi-auto
+      rule: == "≤2秒"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: ≤2秒配置
+  QUANTITY_THRESHOLD__20_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: ≥20个
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：≥20个
+    en-US: ≥20个 Configuration
+    example: ≥20个
+    priority: P2
+    startup_phase: validation
+    tags:
+    - quantity-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: QUANTITY_THRESHOLD__20__auto_001
+    type: threshold
+    validation:
+      automation_level: semi-auto
+      rule: == "≥20个"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: ≥20个配置
+  SUCCESS_THRESHOLD_20_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 20%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：20%
+    en-US: 20% Configuration
+    example: 20%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_20__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "20%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 20%配置
+  SUCCESS_THRESHOLD_30_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 30%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：30%
+    en-US: 30% Configuration
+    example: 30%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_30__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "30%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 30%配置
+  SUCCESS_THRESHOLD_40_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 40%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：40%
+    en-US: 40% Configuration
+    example: 40%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_40__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "40%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 40%配置
+  SUCCESS_THRESHOLD_45_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 45%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：45%
+    en-US: 45% Configuration
+    example: 45%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_45__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "45%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 45%配置
+  SUCCESS_THRESHOLD_50_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 50%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：50%
+    en-US: 50% Configuration
+    example: 50%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_50__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "50%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 50%配置
+  SUCCESS_THRESHOLD_80_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 80%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：80%
+    en-US: 80% Configuration
+    example: 80%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_80__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "80%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 80%配置
+  SUCCESS_THRESHOLD_95_:
+    ai_collaboration: L0
+    auto_generated:
+      original_value: 95%
+      source: field-auto-fixer-enhanced
+      timestamp: '2025-08-07 14:54:06'
+    description: 自动检测的配置参数：95%
+    en-US: 95% Configuration
+    example: 95%
+    priority: P1
+    startup_phase: validation
+    tags:
+    - success-thresholds
+    - auto-detected
+    template_reusability:
+      is_reusable: true
+      reuse_contexts:
+      - 配置管理
+      - 参数控制
+      template_id: SUCCESS_THRESHOLD_95__auto_001
+    type: percentage
+    validation:
+      automation_level: semi-auto
+      rule: == "95%"
+      success_criteria: 配置值匹配
+    value_chain_position: solution_design
+    zh-CN: 95%配置

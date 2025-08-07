@@ -1,0 +1,75 @@
+# === 语义符号与表达 ===
+# 基于field_schema.json v2.0-ai-native规范优化
+
+SEMANTIC_SYMBOLS:
+  zh-CN: "语义符号集"
+  en-US: "Semantic Symbols"
+  description: "高效语义表达的符号体系"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["DRY", "token-economy", "ai-native"]
+  token_budget:
+    estimated_tokens: 100
+    efficiency_target: "≥95%"
+    optimization_strategy: "符号化压缩+语义复用"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "开发阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "表达简洁"
+    business_value: "Token节省30-40%"
+    roi_estimate: "沟通效率≥95%"
+    market_validation: "已验证"
+  risk_mitigation:
+    technical_risks: ["符号歧义", "学习成本"]
+    mitigation_strategy: "标准化定义+渐进学习"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["文档编写", "系统设计", "团队沟通"]
+    template_id: "SEMANTIC_SYM_001"
+  example:
+    feedback_loop: "⟳"
+    parallel_constraint: "∩"
+    strategy_overlay: "⊕"
+    temporal_dependency: "→"
+    semantic_reference: "::GRPH::"
+    priority_markers: ["★P1", "★P2", "★P3", "★P4", "★P5"]
+
+SYMBOL_TOKEN_SAVINGS:
+  zh-CN: "符号Token节省"
+  en-US: "Symbol Token Savings"
+  description: "各语义符号的Token节省效果"
+  type: "object"
+  priority: "P2"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["token-economy", "DRY", "YAGNI"]
+  token_budget:
+    estimated_tokens: 50
+    efficiency_target: "≥98%"
+    optimization_strategy: "效果量化+持续优化"
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: "优化阶段"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "成本可见"
+    business_value: "平均节省30% Token"
+    roi_estimate: "年度成本降低25%"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["成本分析", "效率评估"]
+    template_id: "TOKEN_SAVINGS_001"
+  example:
+    feedback_loop_savings: "30%"
+    parallel_constraint_savings: "25%"
+    strategy_overlay_savings: "35%"
+    temporal_dependency_savings: "20%"
+    semantic_reference_savings: "40%"
+    priority_markers_savings: "15%"

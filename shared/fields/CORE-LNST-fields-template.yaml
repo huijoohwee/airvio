@@ -1,0 +1,789 @@
+# CORE-LNST.md 字段化模版
+# 基于字段管理规范，将CORE-LNST.md核心概念转换为标准化字段定义
+
+# ==================== LNST 精益创业核心层字段 ====================
+LNST_BUILD_MEASURE_LEARN_CYCLE:
+  zh-CN: 构建-测量-学习循环
+  en-US: Build-Measure-Learn Cycle
+  description: 精益创业核心循环，包含构建、测量、学习三个阶段
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["discovery", "validation", "development"]
+  value_chain_position: core
+  tags:
+  - lean-startup
+  - KISS
+  - mvp
+  token_budget:
+    estimated_tokens: 1000
+    efficiency_target: ≥85%
+    optimization_strategy: 阶段化模板复用
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 48-72小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 快速验证假设
+    business_value: 创业成功率≥70%
+    roi_estimate: 3x迭代效率
+    market_validation: 已验证
+  risk_mitigation:
+    market_risks:
+    - 假设验证失败
+    - 用户需求偏差
+    mitigation_strategy: 快速迭代+用户反馈
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 产品迭代
+    - 假设验证
+    - 用户测试
+    template_id: LNST_BML_001
+  example:
+    build_phase:
+      objective: 最小可行产品构建
+      token_budget: 2500
+      timeline: 48-72小时
+    measure_phase:
+      objective: 用户反馈收集与分析
+      token_budget: 1500
+      timeline: 24-48小时
+    learn_phase:
+      objective: 洞察提取与策略调整
+      token_budget: 1000
+      timeline: 12-24小时
+
+LNST_STARTUP_FIVE_STAGES:
+  zh-CN: 创业五阶段价值链
+  en-US: Startup Five-Stage Value Chain
+  description: 发现、验证、开发、发布、融资五个创业阶段的完整价值链
+  type: object
+  priority: P0
+  ai_collaboration: L2
+  startup_phase: ["discovery", "validation", "development", "launch", "fundraising"]
+  value_chain_position: core
+  tags:
+  - lean-startup
+  - business-value
+  - user-centric
+  token_budget:
+    estimated_tokens: 2000
+    efficiency_target: ≥80%
+    optimization_strategy: 阶段化预算分配
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 各阶段时间线
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 清晰的创业路径
+    business_value: 投资人就绪度≥90%
+    roi_estimate: 创业成功率≥70%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 创业规划
+    - 项目管理
+    - 投资路演
+    template_id: LNST_STAGES_001
+  example:
+    discovery_stage:
+      core_goal: 问题验证
+      success_metrics: 问题验证率≥80%
+      token_budget: 8000
+      timeline: 1-2周
+    validation_stage:
+      core_goal: 解决方案验证
+      success_metrics: 产品市场匹配≥70%
+      token_budget: 10000
+      timeline: 2-3周
+
+LNST_INVESTOR_READINESS_FRAMEWORK:
+  zh-CN: 投资人就绪度框架
+  en-US: Investor Readiness Framework
+  description: 投资人评估的五要素框架，包含问题验证、解决方案演示等
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["fundraising"]
+  value_chain_position: business_value
+  tags:
+  - business-value
+  - lean-startup
+  - user-centric
+  token_budget:
+    estimated_tokens: 1500
+    efficiency_target: ≥85%
+    optimization_strategy: 模板化评估+自动化报告
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 融资阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 投资人信心
+    business_value: 融资成功率≥60%
+    roi_estimate: 融资效率3x
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 投资路演
+    - 尽职调查
+    - 商业计划
+    template_id: LNST_INVESTOR_001
+  example:
+    problem_validation:
+      weight: 20%
+      requirements: ["客户访谈≥20个", "问题验证率≥80%"]
+    solution_demonstration:
+      weight: 25%
+      requirements: ["MVP功能完整度≥90%", "用户满意度≥85%"]
+
+# ==================== HMNM 人机神经元体系字段 ====================
+HMNM_SEVEN_CORE_DOCS:
+  zh-CN: HMNM七份核心文档
+  en-US: HMNM Seven Core Documents
+  description: BLUEPRINT、ROOT、META、QUICKLAUNCH、README、CHEATSHEET、WINSHEET七份核心文档体系
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - human-ai-collaboration
+  - SOLID
+  - ai-native
+  token_budget:
+    estimated_tokens: 800
+    efficiency_target: ≥90%
+    optimization_strategy: 文档模板化+人机分工优化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 协作效率
+    business_value: MVP上线效率3x
+    roi_estimate: 文档化成本降低60%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 文档协作
+    - 知识管理
+    - 团队协作
+    template_id: HMNM_DOCS_001
+  example:
+    blueprint:
+      function: 神经体系架构设计
+      token_budget: 1500
+      human_ai_ratio: "75%:25%"
+    quicklaunch:
+      function: 60分钟极速启动
+      token_budget: 800
+      human_ai_ratio: "85%:15%"
+
+HMNM_NEURAL_FLOW_PATHS:
+  zh-CN: 神经流路径
+  en-US: Neural Flow Paths
+  description: 体系设计流、战略执行流、反馈强化流三大神经流路径
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - quick-launch
+  - token-economy
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: ≥90%
+    optimization_strategy: 路径缓存+增量优化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 60分钟
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 极速响应
+    business_value: 问题解决率≥90%
+    roi_estimate: 响应时间缩短80%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 快速启动
+    - 问题解决
+    - 流程优化
+    template_id: HMNM_FLOW_001
+  example:
+    architecture_flow:
+      token_consumption: 500
+      time_requirement: "{{小时}}内"
+      success_indicator: 架构图完成
+    strategy_flow:
+      token_consumption: 600
+      time_requirement: 60分钟内
+      success_indicator: MVP存活
+
+# ==================== MAOS 智能体编排系统字段 ====================
+MAOS_SIX_CORE_AGENTS:
+  zh-CN: MAOS六类核心智能体
+  en-US: MAOS Six Core Agents
+  description: 编排、发现、验证、开发、融资、监控六类智能体的协作体系
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - multi-agent
+  - ai-native
+  - lean-startup
+  token_budget:
+    estimated_tokens: 1000
+    efficiency_target: ≥85%
+    optimization_strategy: 智能体动态编排+按需激活
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 自动化协作
+    business_value: 协作效率≥90%
+    roi_estimate: 人力成本降低60%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 智能体编排
+    - 自动化协作
+    - 工作流设计
+    template_id: MAOS_AGENTS_001
+  example:
+    orchestration_agent:
+      function: 多智能体动态编排与协调
+      token_budget_per_call: 200
+      collaboration_mode: 中央协调
+    discovery_agent:
+      function: 问题发现与市场研究
+      token_budget_per_call: 1500
+      collaboration_mode: 串行深度
+
+MAOS_AGENT_COLLABORATION_MATRIX:
+  zh-CN: 智能体协作矩阵
+  en-US: Agent Collaboration Matrix
+  description: 智能体间的协作关系、数据流向和触发条件矩阵
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - multi-agent
+  - SOLID
+  - ai-native
+  token_budget:
+    estimated_tokens: 600
+    efficiency_target: ≥90%
+    optimization_strategy: 协作模式模板化
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 协作透明
+    business_value: 协作效率优化
+    roi_estimate: 协作成本降低40%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 协作设计
+    - 工作流优化
+    template_id: MAOS_MATRIX_001
+
+# ==================== GSTR 四元体系字段 ====================
+GSTR_FOUR_DIMENSION_SYSTEM:
+  zh-CN: GSTR四元融合体系
+  en-US: GSTR Four-Dimension System
+  description: 目标-空间-时间-资源四元维度的融合执行体系
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - SOLID
+  - ai-native
+  - lean-startup
+  token_budget:
+    estimated_tokens: 800
+    efficiency_target: ≥90%
+    optimization_strategy: 四元体系符号化压缩
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 执行框架
+    business_value: 执行成功率≥90%
+    roi_estimate: 执行效率3x
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 战略执行
+    - 项目管理
+    - 资源配置
+    template_id: GSTR_SYSTEM_001
+  example:
+    goal_dimension:
+      structure: "战略⟳战役⟳战术"
+      token_budget: 800
+      startup_value: "战略清晰度≥95%"
+    resource_dimension:
+      structure: "池⟳域⟳流⟳元"
+      token_budget: 600
+      startup_value: "资源效率≥85%"
+
+GSTR_OODA_CYCLE_ADAPTATION:
+  zh-CN: OODA循环精益创业适配
+  en-US: OODA Cycle Lean Startup Adaptation
+  description: 观察-定位-决策-行动-反馈循环在精益创业中的应用
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["validation"]
+  value_chain_position: solution_design
+  tags:
+  - lean-startup
+  - KISS
+  - multi-agent
+  token_budget:
+    estimated_tokens: 1200
+    efficiency_target: ≥85%
+    optimization_strategy: OODA循环模板化
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 1-2周
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 快速决策
+    business_value: 决策延迟减少80%
+    roi_estimate: 迭代速度≥3x
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 决策流程
+    - 迭代管理
+    - 反馈循环
+    template_id: GSTR_OODA_001
+  example:
+    observe_phase:
+      activities: ["市场调研", "用户访谈", "竞争分析"]
+      token_budget: 1500
+      timeline: "1-2周"
+    act_phase:
+      activities: ["MVP构建", "测试执行", "数据收集"]
+      token_budget: 2000
+      timeline: "1-2周"
+
+# ==================== MATB 树形桥接字段 ====================
+MATB_CONVERSION_ENGINE:
+  zh-CN: MATB转换引擎
+  en-US: MATB Conversion Engine
+  description: Markdown-ASCII树形桥接转换引擎，支持多种格式转换
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - cloud-native
+  - token-economy
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: ≥90%
+    optimization_strategy: 转换模板缓存+批量处理
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 格式统一
+    business_value: 沟通效率≥95%
+    roi_estimate: 转换自动化100%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 格式转换
+    - 文档生成
+    - 可视化输出
+    template_id: MATB_ENGINE_001
+  example:
+    htx_to_atr:
+      input_format: 人类自然语言
+      output_format: ASCII树形结构
+      token_budget: 400
+      accuracy_requirement: "≥95%"
+    mdt_to_nquads:
+      input_format: Markdown表格
+      output_format: N-Quads语义
+      token_budget: 600
+      accuracy_requirement: "≥95%"
+
+MATB_STARTUP_SEMANTIC_MAPPING:
+  zh-CN: 精益创业语义映射
+  en-US: Startup Semantic Mapping
+  description: 创业阶段的语义触发词与系统组件的映射关系
+  type: object
+  priority: P1
+  ai_collaboration: L1
+  startup_phase: ["discovery", "validation", "development", "launch", "fundraising"]
+  value_chain_position: solution_design
+  tags:
+  - lean-startup
+  - ai-native
+  - semantic
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: ≥85%
+    optimization_strategy: 语义映射模板化
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 开发阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 智能识别
+    business_value: 自动化程度≥90%
+    roi_estimate: 识别效率3x
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 语义分析
+    - 自动化触发
+    - 智能路由
+    template_id: MATB_SEMANTIC_001
+  example:
+    discovery_phase:
+      triggers: ["验证", "测试", "假设", "问题", "痛点"]
+      gstr_dimension: goal
+      maos_agent: discovery_agent
+      hmnm_doc: BLUEPRINT
+
+# ==================== 集成优化字段 ====================
+INTEGRATED_TOKEN_BUDGET_CONTROL:
+  zh-CN: 综合Token预算控制
+  en-US: Integrated Token Budget Control
+  description: 五层价值流的综合Token预算分配与控制机制
+  type: object
+  priority: P0
+  ai_collaboration: L0
+  startup_phase: ["development"]
+  value_chain_position: solution_design
+  tags:
+  - token-economy
+  - DRY
+  - ai-native
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: ≥95%
+    optimization_strategy: 预算自动化分配+实时监控
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 成本透明
+    business_value: 成本节省≥45%
+    roi_estimate: 预算控制精确率≥95%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 成本控制
+    - 预算规划
+    - 资源优化
+    template_id: INTEGRATED_BUDGET_001
+  example:
+    total_budget: 53000  # 完整创业周期
+    phase_allocation:
+      discovery: 8000
+      validation: 10000
+      development: 12000
+      launch: 8000
+      fundraising: 15000
+    optimization_target:
+      cost_reduction: "45%"
+      efficiency_gain: "3x"
+      success_rate: "≥70%"
+
+MVP_24HOUR_DELIVERY_PROCESS:
+  zh-CN: 24小时MVP上线流程
+  en-US: 24-Hour MVP Delivery Process
+  description: 24小时内完成MVP上线的关键里程碑和时间线
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["validation", "development"]
+  value_chain_position: core
+  tags:
+  - mvp
+  - quick-launch
+  - lean-startup
+  token_budget:
+    estimated_tokens: 1500
+    efficiency_target: ≥90%
+    optimization_strategy: 关键路径优化+并行处理
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 24小时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 极速上线
+    business_value: MVP存活率≥95%
+    roi_estimate: 上线速度10x
+    market_validation: 已验证
+  risk_mitigation:
+    execution_risks:
+    - 时间延期
+    - 质量不达标
+    mitigation_strategy: 关键路径监控+质量门禁
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 快速交付
+    - 项目管理
+    - 时间管理
+    template_id: MVP_24H_001
+  example:
+    milestone_timeline:
+      hour_6: "HMNM文档完成度≥90%"
+      hour_12: "MAOS智能体就绪≥95%"
+      hour_18: "GSTR执行进度≥85%"
+      hour_22: "MVP功能完整度≥80%"
+      hour_24: "系统可用性≥99%"
+
+INVESTOR_READINESS_ASSESSMENT:
+  zh-CN: 投资人就绪度评估
+  en-US: Investor Readiness Assessment
+  description: 技术就绪度、商业就绪度、执行就绪度的综合评估框架
+  type: object
+  priority: P0
+  ai_collaboration: L1
+  startup_phase: ["fundraising"]
+  value_chain_position: business_value
+  tags:
+  - business-value
+  - lean-startup
+  - user-centric
+  token_budget:
+    estimated_tokens: 1000
+    efficiency_target: ≥85%
+    optimization_strategy: 评估模板化+自动化报告
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 融资阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 投资人信心
+    business_value: 融资成功率≥60%
+    roi_estimate: 融资效率3x
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 投资评估
+    - 尽职调查
+    - 商业计划
+    template_id: INVESTOR_ASSESS_001
+  example:
+    technical_readiness:
+      weight: 30%
+      target_score: "≥90%"
+      components: ["HMNM文档体系完整性", "MAOS智能体协作效率"]
+    business_readiness:
+      weight: 40%
+      target_score: "≥85%"
+      components: ["LNST精益创业验证", "市场机会评估"]
+    overall_target: "≥90%"
+
+# ==================== 监控与优化字段 ====================
+KPI_MONITORING_SYSTEM:
+  zh-CN: KPI监控系统
+  en-US: KPI Monitoring System
+  description: 效率指标、质量指标、商业指标的综合监控体系
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: ["launch"]
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - cloud-native
+  - YAGNI
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: ≥95%
+    optimization_strategy: 实时监控+智能告警
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 实时
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 性能透明
+    business_value: 系统可用性≥99%
+    roi_estimate: 运维成本降低50%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 性能监控
+    - 质量管理
+    - 运维管理
+    template_id: KPI_MONITOR_001
+  example:
+    efficiency_metrics:
+      mvp_delivery_time: "≤24小时"
+      token_utilization_rate: "≥85%"
+      automation_coverage: "≥90%"
+    quality_metrics:
+      investor_readiness_score: "≥90%"
+      user_satisfaction: "≥85%"
+      system_reliability: "≥99%"
+
+CONTINUOUS_OPTIMIZATION_MECHANISM:
+  zh-CN: 持续优化机制
+  en-US: Continuous Optimization Mechanism
+  description: 数据收集、性能分析、问题识别、优化策略的闭环优化机制
+  type: object
+  priority: P1
+  ai_collaboration: L1
+  startup_phase: ["launch"]
+  value_chain_position: solution_design
+  tags:
+  - ai-native
+  - YAGNI
+  - lean-startup
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: ≥85%
+    optimization_strategy: 自动化优化+智能建议
+  mvp_relevance:
+    is_mvp_critical: false
+    delivery_timeline: 持续
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 持续改进
+    business_value: 性能提升≥20%
+    roi_estimate: 优化效率3x
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 性能优化
+    - 持续改进
+    - 系统进化
+    template_id: CONTINUOUS_OPT_001
+  example:
+    optimization_cycle:
+      data_collection: 实时数据收集
+      performance_analysis: 性能分析
+      problem_identification: 问题识别
+      optimization_strategy: 优化策略制定
+      strategy_implementation: 策略实施
+      effect_evaluation: 效果评估
+
+# ==================== 配置模板字段 ====================
+PROJECT_INITIALIZATION_CONFIG:
+  zh-CN: 项目初始化配置
+  en-US: Project Initialization Configuration
+  description: 项目启动时的标准化配置模板，包含LNST、HMNM、MAOS、GSTR、MATB配置
+  type: object
+  priority: P0
+  ai_collaboration: L0
+  startup_phase: ["discovery"]
+  value_chain_position: solution_design
+  tags:
+  - template
+  - configuration
+  - ai-native
+  token_budget:
+    estimated_tokens: 500
+    efficiency_target: ≥95%
+    optimization_strategy: 配置模板化+自动化生成
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 项目启动
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 快速启动
+    business_value: 启动效率5x
+    roi_estimate: 配置时间节省90%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 项目启动
+    - 配置管理
+    - 标准化部署
+    template_id: PROJECT_INIT_001
+  example:
+    meta:
+      project_name: "{{项目名称}}"
+      startup_phase: discovery
+      team_size: 3
+      budget_limit: "$50,000"
+    lnst_config:
+      hypothesis_validation_threshold: 0.8
+      mvp_feature_limit: 5
+      user_interview_target: 20
+
+MONITORING_CONFIGURATION_TEMPLATE:
+  zh-CN: 监控配置模板
+  en-US: Monitoring Configuration Template
+  description: KPI阈值、告警规则、仪表板指标的标准化监控配置
+  type: object
+  priority: P1
+  ai_collaboration: L0
+  startup_phase: ["launch"]
+  value_chain_position: solution_design
+  tags:
+  - monitoring
+  - template
+  - ai-native
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: ≥95%
+    optimization_strategy: 监控模板化+自动化配置
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: 上线阶段
+    quick_launch_compatible: true
+  business_impact:
+    user_value: 监控透明
+    business_value: 监控覆盖率≥95%
+    roi_estimate: 监控配置时间节省80%
+    market_validation: 已验证
+  template_reusability:
+    is_reusable: true
+    reuse_contexts:
+    - 监控配置
+    - 运维管理
+    - 性能监控
+    template_id: MONITOR_CONFIG_001
+  example:
+    kpi_thresholds:
+      mvp_delivery_time_hours: 24
+      token_utilization_rate: 0.85
+      investor_readiness_score: 0.9
+    alert_rules:
+      token_budget_warning: 0.8
+      delivery_time_warning: 20
+      quality_score_warning: 0.85

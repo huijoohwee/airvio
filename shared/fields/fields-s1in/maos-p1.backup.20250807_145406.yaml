@@ -1,0 +1,105 @@
+# === MAOS P1 智能体编排字段 ===
+
+fields:
+  AGENT_ORCHESTRATION:
+    zh-CN: "智能体编排"
+    en-US: "Agent Orchestration"
+    description: "多智能体动态编排与协调机制"
+    type: "object"
+    priority: "P1"
+    ai_collaboration: "L0"
+    startup_phase: "development"
+    value_chain_position: "solution_design"
+    tags: ["multi-agent", "ai-native", "SOLID"]
+    validation:
+      rule: "包含6类核心智能体"
+      success_criteria: "自动化协作≥90%"
+      automation_level: "full-auto"
+    token_budget:
+      estimated_tokens: 9800
+      efficiency_target: "≥85%"
+      optimization_strategy: "智能体复用+动态调度"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "智能体24小时内部署"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "自动化协作"
+      business_value: "降低人力成本"
+      roi_estimate: "人力成本节省60%"
+    risk_mitigation:
+      technical_risks: ["智能体协调失败"]
+      execution_risks: ["Token预算超支"]
+      mitigation_strategy: "分层监控+预算控制"
+    example:
+      orchestration_agent: 200
+      discovery_agent: 1500
+      validation_agent: 2000
+      development_agent: 2500
+      fundraising_agent: 2500
+      monitoring_agent: 300
+
+  MAOS_SIX_CORE_AGENTS:
+    zh-CN: "MAOS六类核心智能体"
+    en-US: "MAOS Six Core Agents"
+    description: "编排、发现、验证、开发、融资、监控六类智能体的协作体系"
+    type: "object"
+    priority: "P0"
+    ai_collaboration: "L1"
+    startup_phase: ["development"]
+    value_chain_position: "solution_design"
+    tags: ["multi-agent", "ai-native", "lean-startup"]
+    token_budget:
+      estimated_tokens: 1000
+      efficiency_target: "≥85%"
+      optimization_strategy: "智能体动态编排+按需激活"
+    mvp_relevance:
+      is_mvp_critical: true
+      delivery_timeline: "开发阶段"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "自动化协作"
+      business_value: "协作效率≥90%"
+      roi_estimate: "人力成本降低60%"
+      market_validation: "已验证"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["智能体编排", "自动化协作", "工作流设计"]
+      template_id: "MAOS_AGENTS_001"
+    example:
+      orchestration_agent:
+        function: "多智能体动态编排与协调"
+        token_budget_per_call: 200
+        collaboration_mode: "中央协调"
+      discovery_agent:
+        function: "问题发现与市场研究"
+        token_budget_per_call: 1500
+        collaboration_mode: "串行深度"
+
+  MAOS_AGENT_COLLABORATION_MATRIX:
+    zh-CN: "智能体协作矩阵"
+    en-US: "Agent Collaboration Matrix"
+    description: "智能体间的协作关系、数据流向和触发条件矩阵"
+    type: "object"
+    priority: "P1"
+    ai_collaboration: "L0"
+    startup_phase: ["development"]
+    value_chain_position: "solution_design"
+    tags: ["multi-agent", "SOLID", "ai-native"]
+    token_budget:
+      estimated_tokens: 600
+      efficiency_target: "≥90%"
+      optimization_strategy: "协作模式模板化"
+    mvp_relevance:
+      is_mvp_critical: false
+      delivery_timeline: "开发阶段"
+      quick_launch_compatible: true
+    business_impact:
+      user_value: "协作透明"
+      business_value: "协作效率优化"
+      roi_estimate: "协作成本降低40%"
+      market_validation: "已验证"
+    template_reusability:
+      is_reusable: true
+      reuse_contexts: ["协作设计", "工作流优化"]
+      template_id: "MAOS_MATRIX_001"

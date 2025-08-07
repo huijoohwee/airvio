@@ -1,0 +1,215 @@
+# === HMNM - 人机神经元体系 ===
+# 基于field_schema.json v2.0-ai-native规范优化
+
+HMNM_TOKEN_BUDGETS:
+  zh-CN: "HMNM Token预算"
+  en-US: "HMNM Token Budgets"
+  description: "核心文档Token分配与优化"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["token-economy", "DRY", "human-ai-collaboration"]
+  token_budget:
+    estimated_tokens: 300
+    efficiency_target: "≥90%"
+    optimization_strategy: "模板化+自动化分配"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "24小时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "成本透明"
+    business_value: "40% Token节省"
+    roi_estimate: "3x开发效率"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["文档预算", "项目规划"]
+    template_id: "HMNM_BUDGET_001"
+  example:
+    blueprint_budget: 1500
+    root_budget: 600
+    meta_budget: 500
+    quicklaunch_budget: 800
+    readme_budget: 1000
+    cheatsheet_budget: 500
+    winsheet_budget: 300
+    total_hmnm_budget: 5200
+
+HMNM_SEVEN_CORE_DOCS:
+  zh-CN: "HMNM七份核心文档"
+  en-US: "HMNM Seven Core Documents"
+  description: "BLUEPRINT、ROOT、META、QUICKLAUNCH、README、CHEATSHEET、WINSHEET七份核心文档体系"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L1"
+  startup_phase: ["development"]
+  value_chain_position: "solution_design"
+  tags: ["human-ai-collaboration", "SOLID", "ai-native"]
+  token_budget:
+    estimated_tokens: 800
+    efficiency_target: "≥90%"
+    optimization_strategy: "文档模板化+人机分工优化"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "24小时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "协作效率"
+    business_value: "MVP上线效率3x"
+    roi_estimate: "文档化成本降低60%"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["文档协作", "知识管理", "团队协作"]
+    template_id: "HMNM_DOCS_001"
+  example:
+    blueprint:
+      function: "神经体系架构设计"
+      token_budget: 1500
+      human_ai_ratio: "75%:25%"
+    quicklaunch:
+      function: "60分钟极速启动"
+      token_budget: 800
+      human_ai_ratio: "85%:15%"
+
+HMNM_OPTIMIZATION:
+  zh-CN: "HMNM优化策略"
+  en-US: "HMNM Optimization"
+  description: "神经网络文档体系优化指标"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L1"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["ai-native", "YAGNI", "mvp"]
+  token_budget:
+    estimated_tokens: 200
+    efficiency_target: "≥85%"
+    optimization_strategy: "增量优化"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "24小时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "快速上线"
+    business_value: "MVP存活率≥95%"
+    roi_estimate: "首日MVP成功"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["性能优化", "效率提升"]
+    template_id: "HMNM_OPT_001"
+  example:
+    template_reuse_rate: "40%"
+    token_savings: "40%节省"
+    mvp_readiness_time: "24小时"
+
+HUMAN_MACHINE_RATIO:
+  zh-CN: "人机协作比例"
+  en-US: "Human-Machine Collaboration Ratio"
+  description: "文档的人机协作分工比例"
+  type: "object"
+  priority: "P0"
+  ai_collaboration: "L2"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["human-ai-collaboration", "SOLID", "ai-native"]
+  token_budget:
+    estimated_tokens: 150
+    efficiency_target: "≥95%"
+    optimization_strategy: "智能分工优化"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "实时"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "协作清晰"
+    business_value: "自动化协作90%"
+    roi_estimate: "人力成本降低60%"
+    market_validation: "已验证"
+  risk_mitigation:
+    technical_risks: ["AI能力边界", "人工瓶颈"]
+    mitigation_strategy: "动态调整+能力补强"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["团队协作", "工作流设计"]
+    template_id: "HM_RATIO_001"
+  example:
+    blueprint_ratio: "75%:25%"
+    root_ratio: "90%:10%"
+    meta_ratio: "20%:80%"
+    quicklaunch_ratio: "85%:15%"
+
+NEURAL_FLOW_BUDGETS:
+  zh-CN: "神经流Token预算"
+  en-US: "Neural Flow Budgets"
+  description: "三大神经流路径的Token消耗与时间要求"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L0"
+  startup_phase: "development"
+  value_chain_position: "solution_design"
+  tags: ["token-economy", "quick-launch", "ai-native"]
+  token_budget:
+    estimated_tokens: 100
+    efficiency_target: "≥90%"
+    optimization_strategy: "缓存常用路径"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "60分钟"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "极速启动"
+    business_value: "问题解决率≥90%"
+    roi_estimate: "10秒问题解决"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["快速启动", "问题解决"]
+    template_id: "NEURAL_FLOW_001"
+  example:
+    architecture_flow: 500
+    strategy_flow: 600
+    feedback_flow: 300
+    quicklaunch_time_limit: "60分钟"
+    problem_solving_rate: "≥90%"
+
+HMNM_NEURAL_FLOW_PATHS:
+  zh-CN: "神经流路径"
+  en-US: "Neural Flow Paths"
+  description: "体系设计流、战略执行流、反馈强化流三大神经流路径"
+  type: "object"
+  priority: "P1"
+  ai_collaboration: "L0"
+  startup_phase: ["development"]
+  value_chain_position: "solution_design"
+  tags: ["ai-native", "quick-launch", "token-economy"]
+  token_budget:
+    estimated_tokens: 400
+    efficiency_target: "≥90%"
+    optimization_strategy: "路径缓存+增量优化"
+  mvp_relevance:
+    is_mvp_critical: true
+    delivery_timeline: "60分钟"
+    quick_launch_compatible: true
+  business_impact:
+    user_value: "极速响应"
+    business_value: "问题解决率≥90%"
+    roi_estimate: "响应时间缩短80%"
+    market_validation: "已验证"
+  template_reusability:
+    is_reusable: true
+    reuse_contexts: ["快速启动", "问题解决", "流程优化"]
+    template_id: "HMNM_FLOW_001"
+  example:
+    architecture_flow:
+      token_consumption: 500
+      time_requirement: "{{小时}}内"
+      success_indicator: "架构图完成"
+    strategy_flow:
+      token_consumption: 600
+      time_requirement: "60分钟内"
+      success_indicator: "MVP存活"
