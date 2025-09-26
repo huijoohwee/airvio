@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@base": "https://schema.example.org/",
+    "@base": "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/%40base.jsonld",
     "@vocab": "https://schema.example.org/core/",
 
     "uc":   "https://schema.example.org/universal-concepts/",
