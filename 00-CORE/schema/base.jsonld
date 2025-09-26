@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "@base": "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/base.jsonld",
+    "@vocab": "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/vocab.jsonld",
+    "core": "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/core.jsonld",
+    "uc":   "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/uc.jsonld",
+    "wf":   "https://schema.org/workflow/",
+    "kg":   "https://schema.example.org/knowledge-graph/"
+  },
+
+  "@id": "core:BaseContext:v1.0",
+  "@type": "core:ContextDefinition",
+
+  "meta": {
+    "summary": "Universal base semantic context for multi-domain use",
+    "version": "1.0.0",
+    "maintainer": "https://github.com/your-org",
+    "lastUpdated": "2025-09-26"
+  },
+
+  "universalConcepts": [
+    {
+      "@id": "uc:automation",
+      "@type": "uc:Concept",
+      "label": "Automation",
+      "description": "A universal concept representing automated execution of tasks."
+    },
+    {
+      "@id": "uc:data-processing",
+      "@type": "uc:Concept",
+      "label": "Data Processing",
+      "description": "A universal concept for transforming, analyzing, or enriching data."
+    },
+    {
+      "@id": "uc:reporting",
+      "@type": "uc:Concept",
+      "label": "Reporting",
+      "description": "A universal concept for generating structured outputs or summaries."
+    }
+  ],
+
+  "knowledgeGraphs": [
+    {
+      "@id": "kg:workflow-patterns/generic-pipeline",
+      "@type": "kg:WorkflowPattern",
+      "label": "Generic Processing Pipeline",
+      "steps": [
+        "uc:data-processing",
+        "uc:automation",
+        "uc:reporting"
+      ]
+    }
+  ]
+}
