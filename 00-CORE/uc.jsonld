@@ -1,7 +1,7 @@
 {
   "@context": {
-    "@base": "https://schema.example.org/",
-    "@vocab": "https://schema.example.org/vocab/",
+    "@base": "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/base.jsonld",
+    "@vocab": "https://raw.githubusercontent.com/huijoohwee/airvio/refs/heads/main/00-CORE/vocab.jsonld",
     "uc": "https://schema.example.org/universal-concepts/",
     "core": "https://schema.example.org/core/",
     "wf": "https://schema.org/workflow/"
